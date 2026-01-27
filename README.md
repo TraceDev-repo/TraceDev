@@ -31,11 +31,11 @@ You can configure ` agent/config/config.ymll`
 agent_api_key : "YOUR_API_KEY"
 agent_model_name : "gemini-2.5-flash"  
 ```
-**openai or your-third-party:** 
+**Openai or Other-third-party:** 
 ```yml
 agent_api_key: "YOUR_API_KEY"
 agent_model_name: "your-model-name"
-agent_base_url: "https://your-third-party-api.com/v1"
+agent_base_url: "Openai url or Other third-party url"
 ```
 
 ### 3. Run
