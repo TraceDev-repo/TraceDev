@@ -29,7 +29,7 @@ You can configure ` agent/config/config.ymll`
 
 ```yml
 agent_api_key : "YOUR_API_KEY"
-agent_model_name : "gemini-2.5-flash"  
+agent_model_name : "gemini-model-name"  
 ```
 **Openai or Other-third-party:** 
 ```yml
@@ -42,7 +42,7 @@ agent_base_url: "Openai url or Other third-party url"
 
 ```bash
 python ./agent/main.py \
-  --model deepseek-v3.2 \
+  --model gemini-2.5-flash \
   --method TraceDev \
   --dataset eTour \
   --uc-case-dir ./data/eTour/req \
