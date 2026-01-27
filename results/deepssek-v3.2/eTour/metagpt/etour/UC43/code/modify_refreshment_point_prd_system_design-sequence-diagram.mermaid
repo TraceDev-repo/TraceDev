@@ -1,0 +1,111 @@
+sequenceDiagram
+    participant Operator as       
+    participant UI as     
+    participant AuthController as      
+    participant AuthService as     
+    participant PointController as       
+    participant PointService as      
+    participant ValidationService as     
+    participant PointRepository as      
+    participant LogService as     
+    participant ETOURService as ETOUR    
+    participant DB as    
+    
+    %% 1.       
+    Operator->>UI:        
+    UI->>AuthController: POST /api/auth/login
+    AuthController->>AuthService: authenticate(username, password)
+    AuthService->>DB:       
+    DB-->>AuthService:       
+    AuthService-->>AuthController:   JWT  
+    AuthController-->>UI:          
+    UI-->>Operator:       
+    
+    %% 2.          
+    Operator->>UI:      ID     
+    UI->>PointController: GET /api/points/{pointId}
+    PointController->>AuthService:     
+    AuthService-->>PointController:     
+    PointController->>PointService: getPointById(pointId)
+    PointService->>PointRepository: findById(pointId)
+    PointRepository->>DB:        
+    DB-->>PointRepository:     
+    PointRepository-->>PointService:   RestaurantPoint  
+    PointService-->>PointController:   RestaurantPointDTO
+    PointController-->>UI:   JSON  
+    UI-->>Operator:        
+    
+    %% 3.          
+    Operator->>UI:            
+    UI->>PointController: POST /api/points/{pointId}/validate
+    PointController->>AuthService:     
+    AuthService-->>PointController:     
+    PointController->>ValidationService: validateRestaurantPoint(updatedData)
+    ValidationService->>ValidationService:       
+    ValidationService->>ValidationService:         
+    ValidationService-->>PointController:   ValidationResultDTO
+    PointController-->>UI:       
+    UI-->>Operator:       （  /  ）
+    
+    %% 4.       
+    Operator->>UI:       
+    UI->>PointController: PUT /api/points/{pointId}
+    PointController->>AuthService:     
+    AuthService-->>PointController:     
+    PointController->>PointService: updatePoint(pointId, updateData)
+    
+    PointService->>LogService:       
+    PointService->>PointRepository: findById(pointId)
+    PointRepository->>DB:      
+    DB-->>PointRepository:      
+    PointRepository-->>PointService:   RestaurantPoint  
+    
+    PointService->>ValidationService: validateRestaurantPoint(updateData)
+    ValidationService-->>PointService:       
+    
+    alt     
+        PointService->>LogService:       
+        PointService-->>PointController:   ValidationException
+    else     
+        PointService->>ETOURService: checkConnection()
+        alt ETOUR    
+            ETOURService-->>PointService:     
+            PointService->>PointRepository: save(updatedPoint)
+            PointRepository->>DB:     
+            DB-->>PointRepository:     
+            PointRepository-->>PointService:        
+            PointService->>ETOURService: updatePointInETOUR(pointId, updateData)
+            ETOURService-->>PointService:     
+            PointService->>LogService:       
+            PointService-->>PointController:       RestaurantPointDTO
+        else ETOUR    
+            ETOURService-->>PointService:     
+            PointService->>PointRepository: save(updatedPoint)
+            PointRepository->>DB:     
+            DB-->>PointRepository:     
+            PointRepository-->>PointService:        
+            PointService->>LogService:   ETOUR      
+            PointService-->>PointController:       RestaurantPointDTO（   ）
+        end
+    end
+    
+    PointController-->>UI:       
+    UI-->>Operator:       
+    
+    %% 5.       
+    Operator->>UI:     
+    UI->>PointController: POST /api/points/{pointId}/cancel
+    PointController->>AuthService:     
+    AuthService-->>PointController:     
+    PointController->>PointService: cancelOperation(pointId)
+    PointService->>LogService:       
+    PointService-->>PointController:       
+    PointController-->>UI:       
+    UI-->>Operator:        
+    
+    %% 6.       
+    Note over PointController,DB:       
+    PointController->>PointController:     
+    PointController->>LogService:     
+    PointController-->>UI:       
+    UI-->>Operator:       

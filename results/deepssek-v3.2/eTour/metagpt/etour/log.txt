@@ -1,0 +1,873 @@
+
+==================================================
+✅    [UC1]     ！
+⏰     : 2025-12-27 14:41:06
+⏰     : 2025-12-27 14:49:28
+⏱️    : 0   8   21.96 
+🔢 Token   : 243668
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC1/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC1/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC2]     ！
+⏰     : 2025-12-27 14:49:28
+⏰     : 2025-12-27 15:15:18
+⏱️    : 0   25   49.73 
+🔢 Token   : 778120
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC2/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC2/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [UC4]     ！
+⏰     : 2025-12-27 15:22:28
+⏰     : 2025-12-27 15:32:09
+⏱️    : 0   9   40.58 
+🔢 Token   : 314701
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC4/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC4/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC5]     ！
+⏰     : 2025-12-27 15:32:09
+⏰     : 2025-12-27 15:35:34
+⏱️    : 0   3   25.63 
+🔢 Token   : 84436
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC5/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC5/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC6]     ！
+⏰     : 2025-12-27 15:35:34
+⏰     : 2025-12-27 15:38:06
+⏱️    : 0   2   31.42 
+🔢 Token   : 79252
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC6/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC6/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC7]     ！
+⏰     : 2025-12-27 15:38:06
+⏰     : 2025-12-27 15:41:16
+⏱️    : 0   3   10.62 
+🔢 Token   : 96951
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC7/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC7/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [UC10]     ！
+⏰     : 2025-12-27 15:54:50
+⏰     : 2025-12-27 15:59:24
+⏱️    : 0   4   33.53 
+🔢 Token   : 118796
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC10/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC10/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC11]     ！
+⏰     : 2025-12-27 15:59:24
+⏰     : 2025-12-27 16:16:19
+⏱️    : 0   16   54.71 
+🔢 Token   : 93673
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC11/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC11/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC12]     ！
+⏰     : 2025-12-27 16:16:19
+⏰     : 2025-12-27 16:21:50
+⏱️    : 0   5   30.90 
+🔢 Token   : 126194
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC12/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC12/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC13]     ！
+⏰     : 2025-12-27 16:21:50
+⏰     : 2025-12-27 16:28:40
+⏱️    : 0   6   50.79 
+🔢 Token   : 236954
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC13/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC13/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [UC16]     ！
+⏰     : 2025-12-27 16:50:34
+⏰     : 2025-12-27 17:07:27
+⏱️    : 0   16   53.12 
+🔢 Token   : 222064
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC16/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC16/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC17]     ！
+⏰     : 2025-12-27 17:07:27
+⏰     : 2025-12-27 17:18:00
+⏱️    : 0   10   32.99 
+🔢 Token   : 583696
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC17/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC17/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC18]     ！
+⏰     : 2025-12-27 17:18:00
+⏰     : 2025-12-27 17:25:46
+⏱️    : 0   7   46.17 
+🔢 Token   : 404446
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC18/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC18/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC20]     ！
+⏰     : 2025-12-27 18:12:35
+⏰     : 2025-12-27 18:25:00
+⏱️    : 0   12   25.53 
+🔢 Token   : 249199
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC20/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC20/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC21]     ！
+⏰     : 2025-12-27 18:25:00
+⏰     : 2025-12-27 18:28:02
+⏱️    : 0   3   1.97 
+🔢 Token   : 83072
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC21/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC21/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC22]     ！
+⏰     : 2025-12-27 18:28:02
+⏰     : 2025-12-27 18:32:31
+⏱️    : 0   4   29.09 
+🔢 Token   : 135871
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC22/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC22/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC23]     ！
+⏰     : 2025-12-27 18:32:31
+⏰     : 2025-12-27 18:39:23
+⏱️    : 0   6   51.30 
+🔢 Token   : 253511
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC23/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC23/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC24]     ！
+⏰     : 2025-12-27 18:39:23
+⏰     : 2025-12-27 18:42:32
+⏱️    : 0   3   9.80 
+🔢 Token   : 55797
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC24/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC24/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC25]     ！
+⏰     : 2025-12-27 18:42:32
+⏰     : 2025-12-27 18:45:29
+⏱️    : 0   2   57.06 
+🔢 Token   : 69149
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC25/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC25/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [UC27]     ！
+⏰     : 2025-12-27 18:52:30
+⏰     : 2025-12-27 18:58:11
+⏱️    : 0   5   41.06 
+🔢 Token   : 185256
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC27/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC27/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC28]     ！
+⏰     : 2025-12-27 18:58:11
+⏰     : 2025-12-27 19:01:03
+⏱️    : 0   2   52.15 
+🔢 Token   : 135148
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC28/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC28/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC29]     ！
+⏰     : 2025-12-27 19:01:03
+⏰     : 2025-12-27 19:03:50
+⏱️    : 0   2   47.49 
+🔢 Token   : 71651
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC29/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC29/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC30]     ！
+⏰     : 2025-12-27 19:03:50
+⏰     : 2025-12-27 19:09:17
+⏱️    : 0   5   26.95 
+🔢 Token   : 87417
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC30/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC30/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC31]     ！
+⏰     : 2025-12-27 19:09:17
+⏰     : 2025-12-27 19:11:21
+⏱️    : 0   2   3.96 
+🔢 Token   : 41526
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC31/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC31/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC32]     ！
+⏰     : 2025-12-27 19:11:21
+⏰     : 2025-12-27 19:13:41
+⏱️    : 0   2   19.66 
+🔢 Token   : 77017
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC32/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC32/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [UC35]     ！
+⏰     : 2025-12-27 19:15:49
+⏰     : 2025-12-27 19:19:36
+⏱️    : 0   3   47.01 
+🔢 Token   : 141741
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC35/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC35/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC36]     ！
+⏰     : 2025-12-27 19:19:36
+⏰     : 2025-12-27 19:22:06
+⏱️    : 0   2   29.49 
+🔢 Token   : 76412
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC36/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC36/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC37]     ！
+⏰     : 2025-12-27 19:22:06
+⏰     : 2025-12-27 19:24:33
+⏱️    : 0   2   26.96 
+🔢 Token   : 64551
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC37/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC37/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC38]     ！
+⏰     : 2025-12-27 19:24:33
+⏰     : 2025-12-27 19:49:50
+⏱️    : 0   25   16.66 
+🔢 Token   : 459802
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC38/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC38/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC39]     ！
+⏰     : 2025-12-27 19:49:50
+⏰     : 2025-12-27 20:01:22
+⏱️    : 0   11   32.87 
+🔢 Token   : 470340
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC39/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC39/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC40]     ！
+⏰     : 2025-12-27 20:01:23
+⏰     : 2025-12-27 20:04:31
+⏱️    : 0   3   8.24 
+🔢 Token   : 74223
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC40/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC40/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC41]     ！
+⏰     : 2025-12-27 20:08:35
+⏰     : 2025-12-27 20:27:44
+⏱️    : 0   19   8.20 
+🔢 Token   : 938176
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC41/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC41/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC42]     ！
+⏰     : 2025-12-27 20:27:44
+⏰     : 2025-12-27 20:35:00
+⏱️    : 0   7   16.16 
+🔢 Token   : 352521
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC42/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC42/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC43]     ！
+⏰     : 2025-12-27 20:35:00
+⏰     : 2025-12-27 20:54:03
+⏱️    : 0   19   3.20 
+🔢 Token   : 411707
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC43/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC43/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC44]     ！
+⏰     : 2025-12-27 20:54:03
+⏰     : 2025-12-27 21:09:40
+⏱️    : 0   15   36.52 
+🔢 Token   : 435033
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC44/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC44/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC45]     ！
+⏰     : 2025-12-27 21:09:40
+⏰     : 2025-12-27 21:16:59
+⏱️    : 0   7   19.45 
+🔢 Token   : 288154
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC45/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC45/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC46]     ！
+⏰     : 2025-12-27 21:16:59
+⏰     : 2025-12-27 21:23:56
+⏱️    : 0   6   56.98 
+🔢 Token   : 186363
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC46/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC46/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC47]     ！
+⏰     : 2025-12-27 21:23:56
+⏰     : 2025-12-27 21:27:27
+⏱️    : 0   3   31.02 
+🔢 Token   : 97465
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC47/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC47/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC48]     ！
+⏰     : 2025-12-27 21:27:27
+⏰     : 2025-12-27 21:36:07
+⏱️    : 0   8   39.82 
+🔢 Token   : 303624
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC48/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC48/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC49]     ！
+⏰     : 2025-12-27 21:36:07
+⏰     : 2025-12-27 21:38:49
+⏱️    : 0   2   41.86 
+🔢 Token   : 78924
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC49/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC49/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC50]     ！
+⏰     : 2025-12-27 21:38:49
+⏰     : 2025-12-27 22:20:45
+⏱️    : 0   41   56.23 
+🔢 Token   : 2778376
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC50/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC50/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [UC52]     ！
+⏰     : 2025-12-27 22:21:56
+⏰     : 2025-12-27 22:27:15
+⏱️    : 0   5   19.08 
+🔢 Token   : 161291
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC52/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC52/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC53]     ！
+⏰     : 2025-12-27 22:27:15
+⏰     : 2025-12-27 22:35:49
+⏱️    : 0   8   33.18 
+🔢 Token   : 312292
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC53/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC53/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC54]     ！
+⏰     : 2025-12-27 22:35:49
+⏰     : 2025-12-27 22:50:16
+⏱️    : 0   14   27.96 
+🔢 Token   : 428798
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC54/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC54/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC55]     ！
+⏰     : 2025-12-27 22:50:17
+⏰     : 2025-12-27 22:52:49
+⏱️    : 0   2   32.17 
+🔢 Token   : 145787
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC55/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC55/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC58]     ！
+⏰     : 2025-12-27 22:55:32
+⏰     : 2025-12-27 23:02:23
+⏱️    : 0   6   51.03 
+🔢 Token   : 275447
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC58/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC58/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+🎉           ！
+⏭️    [UC1]      /home///baselines/MetaGPT/deepseek/etour/UC1，  
+⏭️    [UC2]      /home///baselines/MetaGPT/deepseek/etour/UC2，  
+⏭️    [UC1]      /home///baselines/MetaGPT/deepseek/etour/UC1，  
+⏭️    [UC2]      /home///baselines/MetaGPT/deepseek/etour/UC2，  
+
+==================================================
+✅    [UC3]     ！
+⏰     : 2025-12-28 09:17:26
+⏰     : 2025-12-28 09:25:40
+⏱️    : 0   8   13.67 
+🔢 Token   : 256534
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC3/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC3/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC4]      /home///baselines/MetaGPT/deepseek/etour/UC4，  
+⏭️    [UC5]      /home///baselines/MetaGPT/deepseek/etour/UC5，  
+⏭️    [UC6]      /home///baselines/MetaGPT/deepseek/etour/UC6，  
+⏭️    [UC7]      /home///baselines/MetaGPT/deepseek/etour/UC7，  
+
+==================================================
+✅    [UC8]     ！
+⏰     : 2025-12-28 09:25:40
+⏰     : 2025-12-28 09:32:45
+⏱️    : 0   7   5.26 
+🔢 Token   : 243139
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC8/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC8/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+⏭️    [UC10]      /home///baselines/MetaGPT/deepseek/etour/UC10，  
+⏭️    [UC11]      /home///baselines/MetaGPT/deepseek/etour/UC11，  
+⏭️    [UC12]      /home///baselines/MetaGPT/deepseek/etour/UC12，  
+⏭️    [UC13]      /home///baselines/MetaGPT/deepseek/etour/UC13，  
+
+==================================================
+✅    [UC14]     ！
+⏰     : 2025-12-28 09:43:13
+⏰     : 2025-12-28 09:50:24
+⏱️    : 0   7   11.81 
+🔢 Token   : 238212
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC14/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC14/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC15]     ！
+⏰     : 2025-12-28 09:50:24
+⏰     : 2025-12-28 10:14:00
+⏱️    : 0   23   35.75 
+🔢 Token   : 649555
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC15/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC15/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC16]      /home///baselines/MetaGPT/deepseek/etour/UC16，  
+⏭️    [UC17]      /home///baselines/MetaGPT/deepseek/etour/UC17，  
+⏭️    [UC18]      /home///baselines/MetaGPT/deepseek/etour/UC18，  
+
+==================================================
+✅    [UC19]     ！
+⏰     : 2025-12-28 10:14:00
+⏰     : 2025-12-28 10:16:41
+⏱️    : 0   2   40.88 
+🔢 Token   : 82493
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC19/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC19/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC20]      /home///baselines/MetaGPT/deepseek/etour/UC20，  
+⏭️    [UC21]      /home///baselines/MetaGPT/deepseek/etour/UC21，  
+⏭️    [UC22]      /home///baselines/MetaGPT/deepseek/etour/UC22，  
+⏭️    [UC23]      /home///baselines/MetaGPT/deepseek/etour/UC23，  
+⏭️    [UC24]      /home///baselines/MetaGPT/deepseek/etour/UC24，  
+⏭️    [UC25]      /home///baselines/MetaGPT/deepseek/etour/UC25，  
+
+==================================================
+✅    [UC26]     ！
+⏰     : 2025-12-28 10:16:41
+⏰     : 2025-12-28 10:25:38
+⏱️    : 0   8   56.55 
+🔢 Token   : 362752
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC26/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC26/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC27]      /home///baselines/MetaGPT/deepseek/etour/UC27，  
+⏭️    [UC28]      /home///baselines/MetaGPT/deepseek/etour/UC28，  
+⏭️    [UC29]      /home///baselines/MetaGPT/deepseek/etour/UC29，  
+⏭️    [UC30]      /home///baselines/MetaGPT/deepseek/etour/UC30，  
+⏭️    [UC31]      /home///baselines/MetaGPT/deepseek/etour/UC31，  
+⏭️    [UC32]      /home///baselines/MetaGPT/deepseek/etour/UC32，  
+
+
+==================================================
+✅    [UC34]     ！
+⏰     : 2025-12-28 10:31:57
+⏰     : 2025-12-28 10:34:28
+⏱️    : 0   2   30.15 
+🔢 Token   : 56464
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC34/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC34/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC35]      /home///baselines/MetaGPT/deepseek/etour/UC35，  
+⏭️    [UC36]      /home///baselines/MetaGPT/deepseek/etour/UC36，  
+⏭️    [UC37]      /home///baselines/MetaGPT/deepseek/etour/UC37，  
+⏭️    [UC38]      /home///baselines/MetaGPT/deepseek/etour/UC38，  
+⏭️    [UC39]      /home///baselines/MetaGPT/deepseek/etour/UC39，  
+⏭️    [UC40]      /home///baselines/MetaGPT/deepseek/etour/UC40，  
+⏭️    [UC41]      /home///baselines/MetaGPT/deepseek/etour/UC41，  
+⏭️    [UC42]      /home///baselines/MetaGPT/deepseek/etour/UC42，  
+⏭️    [UC43]      /home///baselines/MetaGPT/deepseek/etour/UC43，  
+⏭️    [UC44]      /home///baselines/MetaGPT/deepseek/etour/UC44，  
+⏭️    [UC45]      /home///baselines/MetaGPT/deepseek/etour/UC45，  
+⏭️    [UC46]      /home///baselines/MetaGPT/deepseek/etour/UC46，  
+⏭️    [UC47]      /home///baselines/MetaGPT/deepseek/etour/UC47，  
+⏭️    [UC48]      /home///baselines/MetaGPT/deepseek/etour/UC48，  
+⏭️    [UC49]      /home///baselines/MetaGPT/deepseek/etour/UC49，  
+⏭️    [UC50]      /home///baselines/MetaGPT/deepseek/etour/UC50，  
+
+==================================================
+✅    [UC51]     ！
+⏰     : 2025-12-28 10:34:28
+⏰     : 2025-12-28 10:37:18
+⏱️    : 0   2   50.83 
+🔢 Token   : 80726
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC51/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC51/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC52]      /home///baselines/MetaGPT/deepseek/etour/UC52，  
+⏭️    [UC53]      /home///baselines/MetaGPT/deepseek/etour/UC53，  
+⏭️    [UC54]      /home///baselines/MetaGPT/deepseek/etour/UC54，  
+⏭️    [UC55]      /home///baselines/MetaGPT/deepseek/etour/UC55，  
+
+==================================================
+✅    [UC56]     ！
+⏰     : 2025-12-28 10:37:18
+⏰     : 2025-12-28 10:39:50
+⏱️    : 0   2   31.88 
+🔢 Token   : 79592
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC56/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC56/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [UC57]     ！
+⏰     : 2025-12-28 10:39:50
+⏰     : 2025-12-28 10:48:40
+⏱️    : 0   8   49.41 
+🔢 Token   : 132096
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC57/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC57/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC58]      /home///baselines/MetaGPT/deepseek/etour/UC58，  
+
+🎉           ！
+⏭️    [UC1]      /home///baselines/MetaGPT/deepseek/etour/UC1，  
+⏭️    [UC2]      /home///baselines/MetaGPT/deepseek/etour/UC2，  
+⏭️    [UC3]      /home///baselines/MetaGPT/deepseek/etour/UC3，  
+⏭️    [UC4]      /home///baselines/MetaGPT/deepseek/etour/UC4，  
+⏭️    [UC5]      /home///baselines/MetaGPT/deepseek/etour/UC5，  
+⏭️    [UC6]      /home///baselines/MetaGPT/deepseek/etour/UC6，  
+⏭️    [UC7]      /home///baselines/MetaGPT/deepseek/etour/UC7，  
+⏭️    [UC8]      /home///baselines/MetaGPT/deepseek/etour/UC8，  
+
+==================================================
+✅    [UC9]     ！
+⏰     : 2025-12-28 10:58:47
+⏰     : 2025-12-28 11:03:51
+⏱️    : 0   5   4.40 
+🔢 Token   : 177762
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC9/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC9/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC10]      /home///baselines/MetaGPT/deepseek/etour/UC10，  
+⏭️    [UC11]      /home///baselines/MetaGPT/deepseek/etour/UC11，  
+⏭️    [UC12]      /home///baselines/MetaGPT/deepseek/etour/UC12，  
+⏭️    [UC13]      /home///baselines/MetaGPT/deepseek/etour/UC13，  
+⏭️    [UC14]      /home///baselines/MetaGPT/deepseek/etour/UC14，  
+⏭️    [UC15]      /home///baselines/MetaGPT/deepseek/etour/UC15，  
+⏭️    [UC16]      /home///baselines/MetaGPT/deepseek/etour/UC16，  
+⏭️    [UC17]      /home///baselines/MetaGPT/deepseek/etour/UC17，  
+⏭️    [UC18]      /home///baselines/MetaGPT/deepseek/etour/UC18，  
+⏭️    [UC19]      /home///baselines/MetaGPT/deepseek/etour/UC19，  
+⏭️    [UC20]      /home///baselines/MetaGPT/deepseek/etour/UC20，  
+⏭️    [UC21]      /home///baselines/MetaGPT/deepseek/etour/UC21，  
+⏭️    [UC22]      /home///baselines/MetaGPT/deepseek/etour/UC22，  
+⏭️    [UC23]      /home///baselines/MetaGPT/deepseek/etour/UC23，  
+⏭️    [UC24]      /home///baselines/MetaGPT/deepseek/etour/UC24，  
+⏭️    [UC25]      /home///baselines/MetaGPT/deepseek/etour/UC25，  
+⏭️    [UC26]      /home///baselines/MetaGPT/deepseek/etour/UC26，  
+⏭️    [UC27]      /home///baselines/MetaGPT/deepseek/etour/UC27，  
+⏭️    [UC28]      /home///baselines/MetaGPT/deepseek/etour/UC28，  
+⏭️    [UC29]      /home///baselines/MetaGPT/deepseek/etour/UC29，  
+⏭️    [UC30]      /home///baselines/MetaGPT/deepseek/etour/UC30，  
+⏭️    [UC31]      /home///baselines/MetaGPT/deepseek/etour/UC31，  
+⏭️    [UC32]      /home///baselines/MetaGPT/deepseek/etour/UC32，  
+
+==================================================
+✅    [UC33]     ！
+⏰     : 2025-12-28 11:03:51
+⏰     : 2025-12-28 11:10:21
+⏱️    : 0   6   29.42 
+🔢 Token   : 170997
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/etour/UC33/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/etour/UC33/log
+🧹     logs: /home///baselines/MetaGPT/logs
+⏭️    [UC34]      /home///baselines/MetaGPT/deepseek/etour/UC34，  
+⏭️    [UC35]      /home///baselines/MetaGPT/deepseek/etour/UC35，  
+⏭️    [UC36]      /home///baselines/MetaGPT/deepseek/etour/UC36，  
+⏭️    [UC37]      /home///baselines/MetaGPT/deepseek/etour/UC37，  
+⏭️    [UC38]      /home///baselines/MetaGPT/deepseek/etour/UC38，  
+⏭️    [UC39]      /home///baselines/MetaGPT/deepseek/etour/UC39，  
+⏭️    [UC40]      /home///baselines/MetaGPT/deepseek/etour/UC40，  
+⏭️    [UC41]      /home///baselines/MetaGPT/deepseek/etour/UC41，  
+⏭️    [UC42]      /home///baselines/MetaGPT/deepseek/etour/UC42，  
+⏭️    [UC43]      /home///baselines/MetaGPT/deepseek/etour/UC43，  
+⏭️    [UC44]      /home///baselines/MetaGPT/deepseek/etour/UC44，  
+⏭️    [UC45]      /home///baselines/MetaGPT/deepseek/etour/UC45，  
+⏭️    [UC46]      /home///baselines/MetaGPT/deepseek/etour/UC46，  
+⏭️    [UC47]      /home///baselines/MetaGPT/deepseek/etour/UC47，  
+⏭️    [UC48]      /home///baselines/MetaGPT/deepseek/etour/UC48，  
+⏭️    [UC49]      /home///baselines/MetaGPT/deepseek/etour/UC49，  
+⏭️    [UC50]      /home///baselines/MetaGPT/deepseek/etour/UC50，  
+⏭️    [UC51]      /home///baselines/MetaGPT/deepseek/etour/UC51，  
+⏭️    [UC52]      /home///baselines/MetaGPT/deepseek/etour/UC52，  
+⏭️    [UC53]      /home///baselines/MetaGPT/deepseek/etour/UC53，  
+⏭️    [UC54]      /home///baselines/MetaGPT/deepseek/etour/UC54，  
+⏭️    [UC55]      /home///baselines/MetaGPT/deepseek/etour/UC55，  
+⏭️    [UC56]      /home///baselines/MetaGPT/deepseek/etour/UC56，  
+⏭️    [UC57]      /home///baselines/MetaGPT/deepseek/etour/UC57，  
+⏭️    [UC58]      /home///baselines/MetaGPT/deepseek/etour/UC58，  
+
+🎉           ！

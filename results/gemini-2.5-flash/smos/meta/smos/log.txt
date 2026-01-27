@@ -1,0 +1,480 @@
+
+==================================================
+✅    [SMOS27]     ！
+⏰     : 2025-12-22 16:27:14
+⏰     : 2025-12-22 16:30:32
+⏱️    : 0   3   17.69 
+🔢 Token   : 304194
+==================================================
+
+📦      [SMOS27]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS27
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+
+==================================================
+✅    [SMOS33]     ！
+⏰     : 2025-12-22 16:45:35
+⏰     : 2025-12-22 16:46:36
+⏱️    : 0   1   1.07 
+🔢 Token   : 87136
+==================================================
+
+📦      [SMOS33]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS33
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS34]     ！
+⏰     : 2025-12-22 16:49:54
+⏰     : 2025-12-22 16:51:45
+⏱️    : 0   1   51.37 
+🔢 Token   : 166027
+==================================================
+
+📦      [SMOS34]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS34
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS35]     ！
+⏰     : 2025-12-22 16:51:45
+⏰     : 2025-12-22 16:55:01
+⏱️    : 0   3   15.79 
+🔢 Token   : 382357
+==================================================
+
+📦      [SMOS35]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS35
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS38]     ！
+⏰     : 2025-12-22 16:57:34
+⏰     : 2025-12-22 17:00:54
+⏱️    : 0   3   20.64 
+🔢 Token   : 494808
+==================================================
+
+📦      [SMOS38]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS38
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS39]     ！
+⏰     : 2025-12-22 17:00:54
+⏰     : 2025-12-22 17:02:24
+⏱️    : 0   1   29.96 
+🔢 Token   : 146534
+==================================================
+
+📦      [SMOS39]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS39
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS40]     ！
+⏰     : 2025-12-22 17:02:24
+⏰     : 2025-12-22 17:04:24
+⏱️    : 0   1   59.85 
+🔢 Token   : 164364
+==================================================
+
+📦      [SMOS40]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS40
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS41]     ！
+⏰     : 2025-12-22 17:17:26
+⏰     : 2025-12-22 17:19:01
+⏱️    : 0   1   35.28 
+🔢 Token   : 128445
+==================================================
+
+📦      [SMOS41]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS41
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS42]     ！
+⏰     : 2025-12-22 17:19:01
+⏰     : 2025-12-22 17:21:38
+⏱️    : 0   2   37.64 
+🔢 Token   : 180630
+==================================================
+
+📦      [SMOS42]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS42
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS44]     ！
+⏰     : 2025-12-22 17:23:08
+⏰     : 2025-12-22 17:30:36
+⏱️    : 0   7   27.43 
+🔢 Token   : 1193126
+==================================================
+
+📦      [SMOS44]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS44
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS47]     ！
+⏰     : 2025-12-22 17:34:19
+⏰     : 2025-12-22 17:36:12
+⏱️    : 0   1   52.55 
+🔢 Token   : 155830
+==================================================
+
+📦      [SMOS47]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS47
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS50]     ！
+⏰     : 2025-12-22 17:39:05
+⏰     : 2025-12-22 17:44:30
+⏱️    : 0   5   25.03 
+🔢 Token   : 834846
+==================================================
+
+📦      [SMOS50]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS50
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS51]     ！
+⏰     : 2025-12-22 17:44:30
+⏰     : 2025-12-22 17:46:17
+⏱️    : 0   1   46.74 
+🔢 Token   : 173406
+==================================================
+
+📦      [SMOS51]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS51
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+
+==================================================
+✅    [SMOS53]     ！
+⏰     : 2025-12-22 17:47:49
+⏰     : 2025-12-22 17:49:15
+⏱️    : 0   1   25.30 
+🔢 Token   : 67417
+==================================================
+
+📦      [SMOS53]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS53
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS54]     ！
+⏰     : 2025-12-22 17:49:15
+⏰     : 2025-12-22 18:01:00
+⏱️    : 0   11   45.58 
+🔢 Token   : 2979621
+==================================================
+
+📦      [SMOS54]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS54
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+
+==================================================
+✅    [SMOS56]     ！
+⏰     : 2025-12-22 18:42:25
+⏰     : 2025-12-22 18:45:24
+⏱️    : 0   2   59.43 
+🔢 Token   : 161827
+==================================================
+
+📦      [SMOS56]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS56
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS57]     ！
+⏰     : 2025-12-22 18:45:24
+⏰     : 2025-12-22 18:47:47
+⏱️    : 0   2   22.62 
+🔢 Token   : 330631
+==================================================
+
+📦      [SMOS57]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS57
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS59]     ！
+⏰     : 2025-12-22 18:50:34
+⏰     : 2025-12-22 18:54:39
+⏱️    : 0   4   4.95 
+🔢 Token   : 493312
+==================================================
+
+📦      [SMOS59]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS59
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS60]     ！
+⏰     : 2025-12-22 18:54:39
+⏰     : 2025-12-22 18:58:13
+⏱️    : 0   3   34.26 
+🔢 Token   : 241582
+==================================================
+
+📦      [SMOS60]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS60
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS61]     ！
+⏰     : 2025-12-22 19:04:35
+⏰     : 2025-12-22 19:07:15
+⏱️    : 0   2   39.78 
+🔢 Token   : 285987
+==================================================
+
+📦      [SMOS61]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS61
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS62]     ！
+⏰     : 2025-12-22 19:07:15
+⏰     : 2025-12-22 19:08:50
+⏱️    : 0   1   35.19 
+🔢 Token   : 138272
+==================================================
+
+📦      [SMOS62]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS62
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS63]     ！
+⏰     : 2025-12-22 19:08:50
+⏰     : 2025-12-22 19:10:07
+⏱️    : 0   1   16.78 
+🔢 Token   : 72969
+==================================================
+
+📦      [SMOS63]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS63
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS65]     ！
+⏰     : 2025-12-22 19:14:30
+⏰     : 2025-12-22 19:17:04
+⏱️    : 0   2   33.50 
+🔢 Token   : 182392
+==================================================
+
+📦      [SMOS65]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS65
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS66]     ！
+⏰     : 2025-12-22 19:17:04
+⏰     : 2025-12-22 19:20:50
+⏱️    : 0   3   46.16 
+🔢 Token   : 374483
+==================================================
+
+📦      [SMOS66]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS66
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS67]     ！
+⏰     : 2025-12-22 19:20:50
+⏰     : 2025-12-22 19:23:09
+⏱️    : 0   2   19.58 
+🔢 Token   : 108471
+==================================================
+
+📦      [SMOS67]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS67
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS29]     ！
+⏰     : 2025-12-22 20:31:35
+⏰     : 2025-12-22 20:36:55
+⏱️    : 0   5   19.72 
+🔢 Token   : 222652
+==================================================
+
+📦      [SMOS29]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS29
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS30]     ！
+⏰     : 2025-12-22 20:36:55
+⏰     : 2025-12-22 20:46:08
+⏱️    : 0   9   13.29 
+🔢 Token   : 1579868
+==================================================
+
+📦      [SMOS30]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS30
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS31]     ！
+⏰     : 2025-12-22 20:46:08
+⏰     : 2025-12-22 20:48:57
+⏱️    : 0   2   48.70 
+🔢 Token   : 244059
+==================================================
+
+📦      [SMOS31]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS31
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+32
+🔢 Token 310160
+
+
+==================================================
+✅    [SMOS36]     ！
+⏰     : 2025-12-22 20:58:28
+⏰     : 2025-12-22 21:00:42
+⏱️    : 0   2   13.97 
+🔢 Token   : 183606
+==================================================
+
+📦      [SMOS36]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS36
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS45]     ！
+⏰     : 2025-12-22 21:07:02
+⏰     : 2025-12-22 21:12:02
+⏱️    : 0   4   59.67 
+🔢 Token   : 741160
+==================================================
+
+📦      [SMOS45]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS45
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+==================================================
+✅    [SMOS48]     ！
+⏰     : 2025-12-22 21:13:41
+⏰     : 2025-12-22 21:17:40
+⏱️    : 0   3   59.00 
+🔢 Token   : 132556
+==================================================
+
+📦      [SMOS48]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS48
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS49]     ！
+⏰     : 2025-12-22 21:17:40
+⏰     : 2025-12-22 21:19:57
+⏱️    : 0   2   16.83 
+🔢 Token   : 190860
+==================================================
+
+📦      [SMOS49]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS49
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS52]     ！
+⏰     : 2025-12-22 21:19:57
+⏰     : 2025-12-22 21:22:57
+⏱️    : 0   2   59.88 
+🔢 Token   : 275328
+==================================================
+
+📦      [SMOS52]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS52
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS55]     ！
+⏰     : 2025-12-22 21:22:57
+⏰     : 2025-12-22 21:25:01
+⏱️    : 0   2   4.74 
+🔢 Token   : 175317
+==================================================
+
+📦      [SMOS55]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS55
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS64]     ！
+⏰     : 2025-12-22 21:25:01
+⏰     : 2025-12-22 21:28:49
+⏱️    : 0   3   47.49 
+🔢 Token   : 353534
+==================================================
+
+📦      [SMOS64]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS64
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+🎉           ！
+
+
+
+==================================================
+✅    [SMOS31]     ！
+⏰     : 2025-12-23 15:21:31
+⏰     : 2025-12-23 15:24:36
+⏱️    : 0   3   4.79 
+🔢 Token   : 201614
+==================================================
+
+📦      [SMOS31]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS31
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+
+==================================================
+✅    [SMOS43]     ！
+⏰     : 2025-12-23 15:26:31
+⏰     : 2025-12-23 15:30:06
+⏱️    : 0   3   35.74 
+🔢 Token   : 277386
+==================================================
+
+📦      [SMOS43]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS43
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS31]     ！
+⏰     : 2025-12-23 15:34:26
+⏰     : 2025-12-23 15:38:19
+⏱️    : 0   3   52.87 
+🔢 Token   : 234993
+==================================================
+
+📦      [SMOS31]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS31
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+
+
+==================================================
+✅    [SMOS46]     ！
+⏰     : 2025-12-23 15:39:27
+⏰     : 2025-12-23 15:42:32
+⏱️    : 0   3   4.38 
+🔢 Token   : 120993
+==================================================
+
+📦      [SMOS46]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS46
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+==================================================
+✅    [SMOS58]     ！
+⏰     : 2025-12-23 15:42:32
+⏰     : 2025-12-23 15:45:23
+⏱️    : 0   2   51.07 
+🔢 Token   : 264261
+==================================================
+
+📦      [SMOS58]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS58
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+🎉           ！
+
+==================================================
+✅    [SMOS37]     ！
+⏰     : 2025-12-23 15:58:00
+⏰     : 2025-12-23 15:59:06
+⏱️    : 0   1   6.22 
+🔢 Token   : 17882
+==================================================
+
+📦      [SMOS37]    : /home///baselines/MetaGPT/gemini_2-5_flash/smos/SMOS37
+🧹     workspace     : /home///baselines/MetaGPT/workspace
+
+🎉           ！

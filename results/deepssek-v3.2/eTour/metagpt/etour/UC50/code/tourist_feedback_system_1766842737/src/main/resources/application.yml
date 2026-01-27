@@ -1,0 +1,460 @@
+# Spring Boot      
+#       YAML  ，            
+#       ：     、     、JPA  、     
+spring:
+  #       
+  application:
+    name: tourist-feedback-system
+
+  #      （MySQL   ）
+  datasource:
+    #      URL，    tourist_feedback    
+    #   MySQL 8.0+       
+    url: jdbc:mysql://localhost:3306/tourist_feedback?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    #       （    root）
+    username: root
+    #      （    root，                ）
+    password: root
+    #        （MySQL 8.0+）
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #      （  HikariCP     ）
+    hikari:
+      #      ，    
+      pool-name: TouristFeedbackHikariCP
+      #        
+      minimum-idle: 5
+      #        
+      maximum-pool-size: 20
+      #         （  ）
+      max-lifetime: 1800000
+      #       （  ）
+      connection-timeout: 30000
+      #         （  ）
+      idle-timeout: 600000
+      #       ，        
+      connection-test-query: SELECT 1
+
+  # JPA/Hibernate  
+  jpa:
+    #      （MySQL 8.0  ）
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    #     SQL  （      ，      ）
+    show-sql: true
+    # SQL     ，    
+    properties:
+      hibernate:
+        #    SQL  
+        format_sql: true
+        #   JPA       
+        naming:
+          physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+          implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+    #         （    ，       ）
+    hibernate:
+      ddl-auto: update
+    #      ，      
+    defer-datasource-initialization: true
+
+  # Spring Security  （      ）
+  security:
+    #       （   ，              ）
+    basic:
+      enabled: false
+    #     （   ，                 ）
+    user:
+      name: admin
+      password: admin123
+
+  # Web     
+  servlet:
+    #       （       ）
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  # MVC  
+  mvc:
+    #         
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
+      time: HH:mm:ss
+
+  # Jackson JSON  
+  jackson:
+    #          
+    date-format: yyyy-MM-dd HH:mm:ss
+    #          
+    time-zone: Asia/Shanghai
+    #      
+    serialization:
+      write-dates-as-timestamps: false
+      write-date-timestamps-as-nanoseconds: false
+    #       
+    deserialization:
+      fail-on-unknown-properties: false
+
+  # Actuator           
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: health,info,metrics
+    endpoint:
+      health:
+        show-details: always
+    health:
+      db:
+        enabled: true
+
+#       
+server:
+  #      （  8080）
+  port: 8080
+  #      （        ）
+  address: 0.0.0.0
+  #         （API   ）
+  servlet:
+    context-path: /api
+  #       
+  connection-timeout: 30000ms
+  # Tomcat    （     ）
+  tomcat:
+    # URI  
+    uri-encoding: UTF-8
+    #      
+    max-threads: 200
+    #        
+    min-spare-threads: 10
+    #         
+    connection-timeout: 30000
+    #      
+    max-connections: 10000
+
+#       
+logging:
+  #       
+  level:
+    #      
+    root: INFO
+    #        
+    com.tourist.feedback: DEBUG
+    # Spring      
+    org.springframework: INFO
+    # Hibernate SQL    
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    # JPA    
+    org.springframework.data.jpa: INFO
+    # Web    
+    org.springframework.web: DEBUG
+  #       
+  file:
+    #         
+    path: ./logs
+    #      
+    name: tourist-feedback-system.log
+  #       
+  pattern:
+    #        
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    #       
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  #         
+  logback:
+    rollingpolicy:
+      #         
+      max-file-size: 10MB
+      #           
+      max-history: 30
+      #          
+      total-size-cap: 1GB
+      #               
+      clean-history-on-start: false
+
+#        
+tourist-feedback:
+  # ViewVisitedSites      
+  visited-sites:
+    #       
+    default-page-size: 10
+    #       
+    max-page-size: 50
+    #           
+    recent-limit: 10
+    #       
+    search:
+      #          
+      min-keyword-length: 1
+      #          
+      max-keyword-length: 50
+      #       
+      fuzzy-match-ratio: 0.7
+    #       
+    export:
+      # CSV    
+      csv:
+        #      
+        delimiter: ","
+        #     
+        encoding: "UTF-8"
+        #       
+        include-header: true
+      #        
+      max-export-records: 1000
+    #     
+    cache:
+      #       
+      enabled: true
+      #       （ ）
+      expiry-seconds: 3600
+      #       
+      max-size: 1000
+  #       
+  performance:
+    # API      
+    api-response-time:
+      #      （  ）
+      slow-threshold-ms: 3000
+      #        
+      log-slow-queries: true
+    #        
+    database-query:
+      #  SQL  （  ）
+      slow-threshold-ms: 1000
+      #      SQL
+      log-slow-sql: true
+  #       
+  error-handling:
+    #           
+    show-details: false
+    #          
+    log-client-errors: true
+    #          
+    log-server-errors: true
+    #          
+    error-page-path: "/error"
+  #     
+  security:
+    # JWT Token  
+    jwt:
+      # Token   （ ）
+      expire-seconds: 3600
+      # Token    （ ）
+      refresh-threshold-seconds: 300
+      #     （           ）
+      secret-key: "your-jwt-secret-key-here-change-in-production"
+    #     
+    authentication:
+      #         
+      max-retry-count: 5
+      #       （ ）
+      lock-duration-seconds: 1800
+      #      API    
+      secure-path-patterns:
+        - "/api/users/**/visited-sites/**"
+        - "/api/users/**/feedback/**"
+
+#         （      ）
+spring:
+  profiles:
+    #        ，        
+    active: dev
+    #         （        ）
+    include: common
+    #         
+    exclude: prod
+
+#         （spring.profiles=dev）
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  #          
+  datasource:
+    #          （  MySQL）
+    url: jdbc:mysql://localhost:3306/tourist_feedback_dev?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    username: dev_user
+    password: dev_password
+  #         
+  jpa:
+    #       SQL
+    show-sql: true
+    properties:
+      hibernate:
+        #        SQL
+        format_sql: true
+    #             
+    hibernate:
+      ddl-auto: update
+  #         
+  logging:
+    level:
+      com.tourist.feedback: DEBUG
+      org.hibernate.SQL: DEBUG
+      org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+#         （spring.profiles=test）
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  #          
+  datasource:
+    #          （     ）
+    url: jdbc:mysql://test-server:3306/tourist_feedback_test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    username: test_user
+    password: test_password
+  #         
+  jpa:
+    #        SQL（    ）
+    show-sql: false
+    hibernate:
+      ddl-auto: validate
+  #         
+  logging:
+    level:
+      com.tourist.feedback: INFO
+      org.hibernate.SQL: WARN
+
+#         （spring.profiles=prod）
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  #          （          ）
+  datasource:
+    #           
+    url: jdbc:mysql://prod-master-server:3306/tourist_feedback?useUnicode=true&characterEncoding=UTF-8&useSSL=true&allowPublicKeyRetrieval=false&serverTimezone=Asia/Shanghai
+    username: prod_user
+    password: ${DB_PASSWORD:prod_password}
+  #         
+  jpa:
+    #        SQL（    ）
+    show-sql: false
+    hibernate:
+      ddl-auto: validate
+      #               
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  #         
+  logging:
+    level:
+      com.tourist.feedback: WARN
+      org.springframework: WARN
+      org.hibernate: WARN
+    #            
+    file:
+      path: /var/log/tourist-feedback
+      name: application.log
+  #         
+  security:
+    #           
+    basic:
+      enabled: true
+  #          
+  server:
+    port: 80
+    #       HTTPS
+#    ssl:
+#      key-store: classpath:keystore.p12
+#      key-store-password: ${SSL_KEYSTORE_PASSWORD}
+#      key-store-type: PKCS12
+#      key-alias: tomcat
+
+#     （      ）
+---
+spring:
+  config:
+    activate:
+      on-profile: common
+  #       
+  cache:
+    type: simple
+  #       
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+    cache-duration: 3600
+  #         
+  resources:
+    cache:
+      period: 3600
+  #         
+  task:
+    execution:
+      pool:
+        core-size: 5
+        max-size: 20
+        queue-capacity: 100
+  #   Spring MVC  
+  mvc:
+    throw-exception-if-no-handler-found: true
+    static-path-pattern: /static/**
+  #        
+  web:
+    locale: zh_CN
+    locale-resolver: fixed
+
+#         
+info:
+  app:
+    name: "${spring.application.name}"
+    version: "1.0.0"
+    description: "Tourist Feedback System - ViewVisitedSites Module"
+    author: "Tourist Feedback Team"
+    contact: "support@tourist-feedback.com"
+  build:
+    artifact: "${project.artifactId}"
+    version: "${project.version}"
+    time: "${build.time}"
+  java:
+    version: "${java.version}"
+  spring:
+    boot: "${spring.boot.version}"
+    profiles: "${spring.profiles.active:none}"
+  server:
+    port: "${server.port}"
+    context: "${server.servlet.context-path:/}"
+  database:
+    url: "${spring.datasource.url}"
+    driver: "${spring.datasource.driver-class-name}"
+  logging:
+    file: "${logging.file.path:./logs}/${logging.file.name:tourist-feedback-system.log}"
+    level: "${logging.level.com.tourist.feedback:INFO}"
+
+# JVM    （             ）
+management:
+  info:
+    env:
+      enabled: true
+    java:
+      enabled: true
+    os:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    distribution:
+      percentiles-histogram:
+        http.server.requests: true
+    enable:
+      all: true
+
+# Micrometer    （           ）
+micrometer:
+  metrics:
+    export:
+      simple:
+        enabled: true
+    distribution:
+      slo: 
+        http.server.requests: 3s,5s
+  tracing:
+    enabled: true
+    sampling:
+      probability: 0.1

@@ -1,0 +1,888 @@
+
+==================================================
+✅    [SMOS1]     ！
+⏰     : 2025-12-28 14:30:01
+⏰     : 2025-12-28 14:32:35
+⏱️    : 0   2   33.90 
+🔢 Token   : 56261
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS1/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS1/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS2]     ！
+⏰     : 2025-12-28 14:32:35
+⏰     : 2025-12-28 14:38:48
+⏱️    : 0   6   13.38 
+🔢 Token   : 159498
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS2/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS2/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS3]     ！
+⏰     : 2025-12-28 14:38:48
+⏰     : 2025-12-28 14:41:44
+⏱️    : 0   2   55.66 
+🔢 Token   : 85502
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS3/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS3/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS4]     ！
+⏰     : 2025-12-28 14:41:44
+⏰     : 2025-12-28 14:44:27
+⏱️    : 0   2   43.72 
+🔢 Token   : 77546
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS4/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS4/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS5]     ！
+⏰     : 2025-12-28 14:44:27
+⏰     : 2025-12-28 14:47:23
+⏱️    : 0   2   55.38 
+🔢 Token   : 69386
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS5/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS5/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS6]     ！
+⏰     : 2025-12-28 14:47:23
+⏰     : 2025-12-28 14:55:27
+⏱️    : 0   8   4.55 
+🔢 Token   : 173141
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS6/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS6/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS7]     ！
+⏰     : 2025-12-28 14:55:27
+⏰     : 2025-12-28 14:57:14
+⏱️    : 0   1   46.99 
+🔢 Token   : 53079
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS7/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS7/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS8]     ！
+⏰     : 2025-12-28 14:57:14
+⏰     : 2025-12-28 15:02:26
+⏱️    : 0   5   11.75 
+🔢 Token   : 130124
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS8/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS8/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS9]     ！
+⏰     : 2025-12-28 15:02:26
+⏰     : 2025-12-28 15:05:11
+⏱️    : 0   2   44.87 
+🔢 Token   : 54269
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS9/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS9/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS10]     ！
+⏰     : 2025-12-28 15:05:11
+⏰     : 2025-12-28 15:14:10
+⏱️    : 0   8   59.21 
+🔢 Token   : 297513
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS10/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS10/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS12]     ！
+⏰     : 2025-12-28 15:21:40
+⏰     : 2025-12-28 15:23:52
+⏱️    : 0   2   11.72 
+🔢 Token   : 82774
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS12/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS12/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS13]     ！
+⏰     : 2025-12-28 15:23:52
+⏰     : 2025-12-28 15:31:02
+⏱️    : 0   7   9.78 
+🔢 Token   : 206531
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS13/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS13/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS14]     ！
+⏰     : 2025-12-28 15:31:02
+⏰     : 2025-12-28 15:33:53
+⏱️    : 0   2   51.40 
+🔢 Token   : 84224
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS14/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS14/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS15]     ！
+⏰     : 2025-12-28 15:33:53
+⏰     : 2025-12-28 15:36:06
+⏱️    : 0   2   13.25 
+🔢 Token   : 53223
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS15/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS15/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [SMOS17]     ！
+⏰     : 2025-12-28 15:37:26
+⏰     : 2025-12-28 15:39:40
+⏱️    : 0   2   13.63 
+🔢 Token   : 75218
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS17/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS17/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS18]     ！
+⏰     : 2025-12-28 15:39:40
+⏰     : 2025-12-28 15:42:27
+⏱️    : 0   2   46.99 
+🔢 Token   : 72359
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS18/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS18/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS19]     ！
+⏰     : 2025-12-28 15:42:27
+⏰     : 2025-12-28 15:45:40
+⏱️    : 0   3   13.08 
+🔢 Token   : 83511
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS19/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS19/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS20]     ！
+⏰     : 2025-12-28 15:45:40
+⏰     : 2025-12-28 15:49:23
+⏱️    : 0   3   43.30 
+🔢 Token   : 122465
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS20/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS20/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS21]     ！
+⏰     : 2025-12-28 15:49:23
+⏰     : 2025-12-28 15:52:29
+⏱️    : 0   3   5.67 
+🔢 Token   : 62185
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS21/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS21/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS22]     ！
+⏰     : 2025-12-28 15:52:29
+⏰     : 2025-12-28 15:57:40
+⏱️    : 0   5   10.82 
+🔢 Token   : 143265
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS22/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS22/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS23]     ！
+⏰     : 2025-12-28 15:57:40
+⏰     : 2025-12-28 15:59:53
+⏱️    : 0   2   13.14 
+🔢 Token   : 70328
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS23/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS23/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS24]     ！
+⏰     : 2025-12-28 15:59:53
+⏰     : 2025-12-28 16:02:32
+⏱️    : 0   2   38.78 
+🔢 Token   : 77759
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS24/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS24/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS25]     ！
+⏰     : 2025-12-28 16:02:32
+⏰     : 2025-12-28 16:10:53
+⏱️    : 0   8   20.99 
+🔢 Token   : 308295
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS25/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS25/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS26]     ！
+⏰     : 2025-12-28 16:10:53
+⏰     : 2025-12-28 16:18:28
+⏱️    : 0   7   35.59 
+🔢 Token   : 259118
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS26/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS26/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [SMOS28]     ！
+⏰     : 2025-12-28 16:20:10
+⏰     : 2025-12-28 16:41:37
+⏱️    : 0   21   26.72 
+🔢 Token   : 1186343
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS28/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS28/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS29]     ！
+⏰     : 2025-12-28 16:41:37
+⏰     : 2025-12-28 16:56:08
+⏱️    : 0   14   30.95 
+🔢 Token   : 681817
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS29/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS29/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS30]     ！
+⏰     : 2025-12-28 16:56:08
+⏰     : 2025-12-28 17:08:50
+⏱️    : 0   12   41.73 
+🔢 Token   : 371030
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS30/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS30/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS31]     ！
+⏰     : 2025-12-28 17:08:50
+⏰     : 2025-12-28 17:17:25
+⏱️    : 0   8   35.38 
+🔢 Token   : 216752
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS31/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS31/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS32]     ！
+⏰     : 2025-12-28 17:17:25
+⏰     : 2025-12-28 17:20:29
+⏱️    : 0   3   3.35 
+🔢 Token   : 59671
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS32/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS32/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [SMOS34]     ！
+⏰     : 2025-12-28 17:39:06
+⏰     : 2025-12-28 17:41:32
+⏱️    : 0   2   26.04 
+🔢 Token   : 108989
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS34/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS34/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS35]     ！
+⏰     : 2025-12-28 17:41:32
+⏰     : 2025-12-28 17:43:47
+⏱️    : 0   2   15.05 
+🔢 Token   : 55710
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS35/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS35/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS36]     ！
+⏰     : 2025-12-28 17:43:47
+⏰     : 2025-12-28 18:02:04
+⏱️    : 0   18   16.54 
+🔢 Token   : 1161315
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS36/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS36/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS37]     ！
+⏰     : 2025-12-28 18:02:04
+⏰     : 2025-12-28 18:12:13
+⏱️    : 0   10   8.95 
+🔢 Token   : 371231
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS37/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS37/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS38]     ！
+⏰     : 2025-12-28 18:12:13
+⏰     : 2025-12-28 18:15:18
+⏱️    : 0   3   4.83 
+🔢 Token   : 70023
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS38/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS38/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS39]     ！
+⏰     : 2025-12-28 18:15:18
+⏰     : 2025-12-28 18:21:18
+⏱️    : 0   5   59.74 
+🔢 Token   : 179605
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS39/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS39/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS40]     ！
+⏰     : 2025-12-28 18:21:18
+⏰     : 2025-12-28 18:28:44
+⏱️    : 0   7   26.03 
+🔢 Token   : 214052
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS40/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS40/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+
+
+==================================================
+✅    [SMOS43]     ！
+⏰     : 2025-12-28 18:41:13
+⏰     : 2025-12-28 18:44:05
+⏱️    : 0   2   52.00 
+🔢 Token   : 89298
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS43/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS43/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS44]     ！
+⏰     : 2025-12-28 18:44:05
+⏰     : 2025-12-28 18:50:56
+⏱️    : 0   6   51.15 
+🔢 Token   : 233293
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS44/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS44/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+
+==================================================
+✅    [SMOS46]     ！
+⏰     : 2025-12-28 19:15:03
+⏰     : 2025-12-28 19:26:05
+⏱️    : 0   11   2.65 
+🔢 Token   : 409084
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS46/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS46/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS47]     ！
+⏰     : 2025-12-28 19:26:05
+⏰     : 2025-12-28 19:33:03
+⏱️    : 0   6   57.98 
+🔢 Token   : 285353
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS47/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS47/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS48]     ！
+⏰     : 2025-12-28 19:33:03
+⏰     : 2025-12-28 19:34:55
+⏱️    : 0   1   51.97 
+🔢 Token   : 78484
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS48/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS48/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS49]     ！
+⏰     : 2025-12-28 19:34:55
+⏰     : 2025-12-28 19:36:28
+⏱️    : 0   1   32.97 
+🔢 Token   : 42689
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS49/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS49/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS50]     ！
+⏰     : 2025-12-28 19:36:28
+⏰     : 2025-12-28 19:44:12
+⏱️    : 0   7   43.54 
+🔢 Token   : 196458
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS50/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS50/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS51]     ！
+⏰     : 2025-12-28 19:44:12
+⏰     : 2025-12-28 19:46:27
+⏱️    : 0   2   15.07 
+🔢 Token   : 55544
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS51/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS51/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [SMOS53]     ！
+⏰     : 2025-12-28 20:00:04
+⏰     : 2025-12-28 20:02:51
+⏱️    : 0   2   46.99 
+🔢 Token   : 83652
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS53/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS53/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [SMOS55]     ！
+⏰     : 2025-12-28 20:11:40
+⏰     : 2025-12-28 20:20:55
+⏱️    : 0   9   15.34 
+🔢 Token   : 233356
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS55/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS55/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS56]     ！
+⏰     : 2025-12-28 20:20:55
+⏰     : 2025-12-28 20:23:28
+⏱️    : 0   2   32.12 
+🔢 Token   : 58747
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS56/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS56/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS57]     ！
+⏰     : 2025-12-28 20:23:28
+⏰     : 2025-12-28 20:27:11
+⏱️    : 0   3   43.74 
+🔢 Token   : 138339
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS57/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS57/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS58]     ！
+⏰     : 2025-12-28 20:27:11
+⏰     : 2025-12-28 20:29:44
+⏱️    : 0   2   33.13 
+🔢 Token   : 46379
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS58/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS58/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS59]     ！
+⏰     : 2025-12-28 20:29:44
+⏰     : 2025-12-28 20:41:47
+⏱️    : 0   12   2.48 
+🔢 Token   : 625348
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS59/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS59/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS60]     ！
+⏰     : 2025-12-28 20:41:47
+⏰     : 2025-12-28 20:44:42
+⏱️    : 0   2   54.70 
+🔢 Token   : 68809
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS60/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS60/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS61]     ！
+⏰     : 2025-12-28 20:44:42
+⏰     : 2025-12-28 20:48:09
+⏱️    : 0   3   27.62 
+🔢 Token   : 86682
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS61/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS61/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS62]     ！
+⏰     : 2025-12-28 20:48:09
+⏰     : 2025-12-28 20:51:06
+⏱️    : 0   2   56.61 
+🔢 Token   : 81575
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS62/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS62/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS63]     ！
+⏰     : 2025-12-28 20:51:06
+⏰     : 2025-12-28 20:53:21
+⏱️    : 0   2   14.62 
+🔢 Token   : 76185
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS63/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS63/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS64]     ！
+⏰     : 2025-12-28 20:53:21
+⏰     : 2025-12-28 20:56:21
+⏱️    : 0   3   0.60 
+🔢 Token   : 78431
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS64/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS64/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS65]     ！
+⏰     : 2025-12-28 20:56:21
+⏰     : 2025-12-28 20:59:12
+⏱️    : 0   2   50.42 
+🔢 Token   : 69993
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS65/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS65/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS66]     ！
+⏰     : 2025-12-28 20:59:12
+⏰     : 2025-12-28 21:07:59
+⏱️    : 0   8   47.75 
+🔢 Token   : 446393
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS66/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS66/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS67]     ！
+⏰     : 2025-12-28 21:07:59
+⏰     : 2025-12-28 21:14:38
+⏱️    : 0   6   38.88 
+🔢 Token   : 194269
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS67/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS67/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+🎉           ！
+
+==================================================
+✅    [SMOS11]     ！
+⏰     : 2025-12-28 21:23:01
+⏰     : 2025-12-28 21:26:43
+⏱️    : 0   3   42.03 
+🔢 Token   : 95808
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS11/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS11/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS16]     ！
+⏰     : 2025-12-28 21:26:43
+⏰     : 2025-12-28 21:28:54
+⏱️    : 0   2   10.98 
+🔢 Token   : 93017
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS16/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS16/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS27]     ！
+⏰     : 2025-12-28 21:28:54
+⏰     : 2025-12-28 21:31:32
+⏱️    : 0   2   37.50 
+🔢 Token   : 75384
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS27/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS27/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+
+==================================================
+✅    [SMOS52]     ！
+⏰     : 2025-12-28 21:44:51
+⏰     : 2025-12-28 21:53:36
+⏱️    : 0   8   44.82 
+🔢 Token   : 407773
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS52/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS52/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS54]     ！
+⏰     : 2025-12-28 21:53:36
+⏰     : 2025-12-28 22:00:15
+⏱️    : 0   6   39.25 
+🔢 Token   : 198321
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS54/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS54/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+🎉           ！
+
+==================================================
+✅    [SMOS33]     ！
+⏰     : 2025-12-28 22:30:40
+⏰     : 2025-12-28 22:32:51
+⏱️    : 0   2   10.88 
+🔢 Token   : 67782
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS33/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS33/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS41]     ！
+⏰     : 2025-12-28 22:32:51
+⏰     : 2025-12-28 22:37:15
+⏱️    : 0   4   24.23 
+🔢 Token   : 130061
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS41/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS41/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS42]     ！
+⏰     : 2025-12-28 22:37:15
+⏰     : 2025-12-28 22:40:31
+⏱️    : 0   3   16.72 
+🔢 Token   : 63077
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS42/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS42/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+==================================================
+✅    [SMOS45]     ！
+⏰     : 2025-12-28 22:40:31
+⏰     : 2025-12-28 22:48:26
+⏱️    : 0   7   54.56 
+🔢 Token   : 679308
+==================================================
+
+📦    workspace    : /home///baselines/MetaGPT/deepseek/smos/SMOS45/code
+🧹     workspace: /home///baselines/MetaGPT/workspace
+📦    logs    : /home///baselines/MetaGPT/deepseek/smos/SMOS45/log
+🧹     logs: /home///baselines/MetaGPT/logs
+
+🎉           ！

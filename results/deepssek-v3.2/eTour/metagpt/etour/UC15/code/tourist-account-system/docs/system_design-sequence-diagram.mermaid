@@ -1,0 +1,116 @@
+sequenceDiagram
+    participant FE as Frontend/Angular UI
+    participant TC as TouristController
+    participant TS as TouristServiceImpl
+    participant VS as ValidationServiceImpl
+    participant TV as TouristValidator
+    participant EV as EmailValidator
+    participant REPO as TouristRepository
+    participant AUDIT as AuditService
+    participant ECON as ETOURConnectionService
+    participant DTO as TouristDTO
+    participant EX as ExceptionHandler
+    
+    %%   1： SearchTourist       
+    Note over FE,EX:   1：             
+    FE->>TC: GET /api/tourists?searchTerm="..."
+    TC->>TS: searchTourists(searchTerm)
+    TS->>REPO: findBySearchTerm(searchTerm)
+    REPO-->>TS: List~Tourist~
+    TS->>DTO: TouristDTO.fromEntity(tourist)
+    DTO-->>TS: TouristDTO
+    TS-->>TC: List~TouristDTO~
+    TC-->>FE: JSON  （    ）
+    
+    %%   2：                 
+    Note over FE,EX:   2：        
+    FE->>TC: GET /api/tourists/{id}
+    TC->>TS: getTouristById(id)
+    TS->>REPO: findById(id)
+    alt     
+        REPO-->>TS: Optional~Tourist~
+        TS->>DTO: TouristDTO.fromEntity(tourist)
+        DTO-->>TS: TouristDTO
+        TS-->>TC: TouristDTO
+        TC-->>FE:       
+    else      
+        REPO-->>TS: Optional.empty()
+        TS-->>EX: throw TouristNotFoundException
+        EX-->>FE: 404    
+    end
+    
+    %%   3：         
+    Note over FE,EX:   3：       
+    FE->>TC: PUT /api/tourists/{id}
+    TC->>TS: updateTourist(id, request, operatorId)
+    
+    %%   4：    （        Errored  ）
+    Note over FE,EX:   4：    
+    TS->>VS: validateTouristData(request)
+    VS->>TV: validate(request)
+    TV->>VS: ValidationResult
+    VS->>EV: isEmailValid(request.email)
+    EV-->>VS: boolean
+    
+    alt     
+        VS-->>TS: ValidationResult (invalid)
+        TS-->>EX: throw ValidationException
+        EX-->>FE: 400      
+        Note over FE,EX:   Errored  
+        FE->>TC:              
+    else     
+        VS-->>TS: ValidationResult (valid)
+        
+        %%   ETOUR  
+        TS->>ECON: connectToETOUR()
+        alt     
+            ECON-->>TS: false (connection failed)
+            TS->>ECON: retryConnection(3)
+            alt     
+                ECON-->>TS: true
+            else     
+                ECON-->>TS: false
+                TS-->>EX: throw ETourConnectionException
+                EX-->>FE: 503     
+                Note over FE,EX:       
+                break
+            end
+        else     
+            ECON-->>TS: true
+        end
+        
+        %%          
+        TS->>REPO: findById(id)
+        REPO-->>TS: Optional~Tourist~
+        TS->>AUDIT: createPreUpdateAuditLog(tourist, operatorId)
+        AUDIT-->>TS: AuditLog
+        
+        %%       
+        TS->>TS: tourist.updateFrom(request)
+        TS->>REPO: save(tourist)
+        REPO-->>TS:    Tourist
+        
+        %%   5：    
+        Note over FE,EX:   5：      
+        TS->>TC: TouristResponse (needs confirmation, auditLogId)
+        TC-->>FE:   （    ，  auditLogId）
+        
+        %%       
+        FE->>TC: POST /api/tourists/{id}/confirm/{auditLogId}
+        TC->>TS: confirmUpdate(touristId, auditLogId, operatorId)
+        
+        %%   6：        
+        Note over FE,EX:   6：       
+        TS->>AUDIT: confirmAuditLog(auditLogId)
+        TS->>ECON: sendDataToETOUR(updatedTourist)
+        ECON-->>TS: boolean (success)
+        
+        TS->>DTO: TouristDTO.fromEntity(updatedTourist)
+        DTO-->>TS: TouristDTO
+        TS->>TC: TouristResponse.success(touristDTO)
+        TC-->>FE:     （        ）
+        
+        %%     ：        
+        Note over FE,EX:   ：              
+        FE->>FE:                
+    end
