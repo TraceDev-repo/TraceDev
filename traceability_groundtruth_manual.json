@@ -1,5 +1,4 @@
 {
-  "base": "/home/ices/mingyuchen/reconstruct/results/gemini-2.5-flash/our_method_overall_noxihua/eTour",
   "seed": 20260327,
   "sample_size": 6,
   "class_granularity": "class_only",
