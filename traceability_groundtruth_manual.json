@@ -1,8 +1,6 @@
 {
   "seed": 20260327,
   "sample_size": 6,
-  "class_granularity": "class_only",
-  "sequence_granularity": "participant_receiver",
   "selected_ucs": [
     "UC13",
     "UC15",
@@ -13,8 +11,6 @@
   ],
   "groundtruth_per_uc": {
     "UC13": {
-      "class_granularity": "class_only",
-      "sequence_granularity": "participant_receiver",
       "trace_class_groundtruth": {
         "req_0": [
           "DisableTouristAccountCommand",
@@ -100,8 +96,6 @@
       }
     },
     "UC15": {
-      "class_granularity": "class_only",
-      "sequence_granularity": "participant_receiver",
       "trace_class_groundtruth": {
         "req_0": [
           "AgencyOperatorController",
@@ -256,8 +250,6 @@
       }
     },
     "UC45": {
-      "class_granularity": "class_only",
-      "sequence_granularity": "participant_receiver",
       "trace_class_groundtruth": {
         "req_0": [
           "Operator",
@@ -346,8 +338,6 @@
       }
     },
     "UC52": {
-      "class_granularity": "class_only",
-      "sequence_granularity": "participant_receiver",
       "trace_class_groundtruth": {
         "req_0": [
           "Bookmark"
@@ -436,8 +426,6 @@
       }
     },
     "UC56": {
-      "class_granularity": "class_only",
-      "sequence_granularity": "participant_receiver",
       "trace_class_groundtruth": {
         "req_0": [
           "GpsLocationRepository",
@@ -498,8 +486,6 @@
       }
     },
     "UC58": {
-      "class_granularity": "class_only",
-      "sequence_granularity": "participant_receiver",
       "trace_class_groundtruth": {
         "req_0": [
           "Site",
