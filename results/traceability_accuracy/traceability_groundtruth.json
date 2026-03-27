@@ -1,0 +1,1218 @@
+{
+  "seed": 20260327,
+  "sample_size": 6,
+  "selected_ucs": [
+    "UC13",
+    "UC15",
+    "UC45",
+    "UC52",
+    "UC56",
+    "UC58"
+  ],
+  "groundtruth_per_uc": {
+    "UC13": {
+      "trace_class_groundtruth": {
+        "req_0": [
+          "DisableTouristAccountCommand",
+          "EnableTouristAccountCommand",
+          "TouristAccount",
+          "TouristAccountCommandService",
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_1": [
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_2": [
+          "TouristAccount",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_3": [
+          "TouristAccount",
+          "TouristAccountCommandService",
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_6": [
+          "AccountStatus",
+          "ITouristAccountRepository",
+          "TouristAccount",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_9": [
+          "TouristAccount",
+          "TouristAccountCommandService",
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "AO",
+          "Account",
+          "Service",
+          "UI"
+        ],
+        "req_1": [
+          "AO"
+        ],
+        "req_2": [
+          "Account",
+          "UI"
+        ],
+        "req_3": [
+          "AO",
+          "UI"
+        ],
+        "req_4": [
+          "UI"
+        ],
+        "req_5": [
+          "AO",
+          "UI"
+        ],
+        "req_6": [
+          "Account",
+          "DB",
+          "Service",
+          "UI"
+        ],
+        "req_7": [
+          "AO",
+          "UI"
+        ],
+        "req_8": [
+          "AO",
+          "DB",
+          "UI"
+        ],
+        "req_9": [
+          "Account",
+          "Audit",
+          "Service",
+          "UI"
+        ]
+      },
+      "trace_code_groundtruth_kind": "heuristic_pseudo_groundtruth",
+      "trace_code_class_groundtruth": {
+        "AccountStatus": [
+          "src/main/java/com/example/touristapp/domain/AccountStatus.java"
+        ],
+        "TouristAccount": [
+          "src/main/java/com/example/touristapp/Main.java",
+          "src/main/java/com/example/touristapp/domain/TouristAccount.java"
+        ],
+        "ICommand": [
+          "src/main/java/com/example/touristapp/application/ICommand.java"
+        ],
+        "EnableTouristAccountCommand": [
+          "src/main/java/com/example/touristapp/application/EnableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "DisableTouristAccountCommand": [
+          "src/main/java/com/example/touristapp/application/DisableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "TouristAccountCommandService": [
+          "src/main/java/com/example/touristapp/Main.java",
+          "src/main/java/com/example/touristapp/application/TouristAccountCommandService.java"
+        ],
+        "AuditLogService": [
+          "src/main/java/com/example/touristapp/Main.java",
+          "src/main/java/com/example/touristapp/infrastructure/AuditLogService.java"
+        ],
+        "ITouristAccountRepository": [
+          "src/main/java/com/example/touristapp/infrastructure/ITouristAccountRepository.java"
+        ],
+        "TouristAccountRepositoryAdapter": [
+          "src/main/java/com/example/touristapp/Main.java",
+          "src/main/java/com/example/touristapp/infrastructure/TouristAccountRepositoryAdapter.java"
+        ],
+        "TouristAccountManagementUI": [
+          "src/main/java/com/example/touristapp/Main.java",
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ]
+      },
+      "trace_code_sequence_nodes_groundtruth": {
+        "UI": [
+          "src/main/java/com/example/touristapp/Main.java",
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "Service": [
+          "src/main/java/com/example/touristapp/application/TouristAccountCommandService.java",
+          "src/main/java/com/example/touristapp/application/TouristAccountQueryService.java",
+          "src/main/java/com/example/touristapp/infrastructure/AuditLogService.java",
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "TouristRepoAdapter": [
+          "src/main/java/com/example/touristapp/infrastructure/TouristAccountRepositoryAdapter.java"
+        ],
+        "Account": [
+          "src/main/java/com/example/touristapp/Main.java",
+          "src/main/java/com/example/touristapp/application/DisableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/application/EnableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/application/TouristAccountCommandService.java",
+          "src/main/java/com/example/touristapp/domain/TouristAccount.java",
+          "src/main/java/com/example/touristapp/infrastructure/AuditLogService.java",
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ]
+      },
+      "trace_code_sequence_messages_groundtruth": {
+        "m2": [
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "m4": [
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "m6": [
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "m8": [
+          "src/main/java/com/example/touristapp/application/TouristAccountCommandService.java"
+        ],
+        "m9": [
+          "src/main/java/com/example/touristapp/application/DisableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/application/EnableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/infrastructure/ITouristAccountRepository.java",
+          "src/main/java/com/example/touristapp/infrastructure/TouristAccountRepositoryAdapter.java"
+        ],
+        "m10": [
+          "src/main/java/com/example/touristapp/application/DisableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/application/EnableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/infrastructure/ITouristAccountRepository.java",
+          "src/main/java/com/example/touristapp/infrastructure/TouristAccountRepositoryAdapter.java"
+        ],
+        "m11": [
+          "src/main/java/com/example/touristapp/application/DisableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/application/EnableTouristAccountCommand.java"
+        ],
+        "m15": [
+          "src/main/java/com/example/touristapp/domain/TouristAccount.java"
+        ],
+        "m17": [
+          "src/main/java/com/example/touristapp/domain/TouristAccount.java"
+        ],
+        "m19": [
+          "src/main/java/com/example/touristapp/infrastructure/ITouristAccountRepository.java",
+          "src/main/java/com/example/touristapp/infrastructure/TouristAccountRepositoryAdapter.java"
+        ],
+        "m20": [
+          "src/main/java/com/example/touristapp/infrastructure/ITouristAccountRepository.java",
+          "src/main/java/com/example/touristapp/infrastructure/TouristAccountRepositoryAdapter.java"
+        ],
+        "m26": [
+          "src/main/java/com/example/touristapp/application/DisableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/application/EnableTouristAccountCommand.java",
+          "src/main/java/com/example/touristapp/domain/TouristAccount.java",
+          "src/main/java/com/example/touristapp/infrastructure/AuditLogService.java"
+        ],
+        "m30": [
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "m32": [
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "m38": [
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ],
+        "m39": [
+          "src/main/java/com/example/touristapp/ui/TouristAccountManagementUI.java"
+        ]
+      }
+    },
+    "UC15": {
+  
+      "trace_class_groundtruth": {
+        "req_0": [
+          "AgencyOperatorController",
+          "Tourist",
+          "TouristDTO",
+          "TouristFormView",
+          "TouristManagementService",
+          "TouristRepository"
+        ],
+        "req_1": [
+          "AgencyOperatorController",
+          "User"
+        ],
+        "req_10": [
+          "AgencyOperatorController",
+          "TouristFormView"
+        ],
+        "req_13": [
+          "AgencyOperatorController"
+        ],
+        "req_14": [
+          "Tourist",
+          "TouristDTO",
+          "TouristManagementService",
+          "TouristRepository"
+        ],
+        "req_2": [
+          "AgencyOperatorController"
+        ],
+        "req_3": [
+          "AgencyOperatorController",
+          "Tourist"
+        ],
+        "req_4": [
+          "AgencyOperatorController",
+          "Tourist",
+          "TouristDTO",
+          "TouristRepository"
+        ],
+        "req_5": [
+          "AgencyOperatorController",
+          "Tourist",
+          "TouristDTO",
+          "TouristRepository"
+        ],
+        "req_6": [
+          "Tourist",
+          "TouristDTO",
+          "TouristManagementService",
+          "TouristRepository"
+        ],
+        "req_7": [
+          "TouristFormView"
+        ],
+        "req_8": [
+          "AgencyOperatorController",
+          "TouristFormView"
+        ],
+        "req_9": [
+          "AgencyOperatorController",
+          "TouristFormView"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "Controller",
+          "Service",
+          "View"
+        ],
+        "req_1": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_10": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_12": [
+          "View"
+        ],
+        "req_13": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_14": [
+          "Controller",
+          "Repository",
+          "TouristDTO",
+          "View"
+        ],
+        "req_15": [
+          "Repository",
+          "Service",
+          "View"
+        ],
+        "req_16": [
+          "Repository",
+          "Service",
+          "View"
+        ],
+        "req_17": [
+          "Controller",
+          "Repository",
+          "Service",
+          "View"
+        ],
+        "req_2": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_3": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_4": [
+          "AO",
+          "Controller",
+          "Service",
+          "View"
+        ],
+        "req_5": [
+          "Controller",
+          "Service",
+          "View"
+        ],
+        "req_6": [
+          "Controller",
+          "DB",
+          "Repository",
+          "View"
+        ],
+        "req_7": [
+          "Controller",
+          "Repository",
+          "View"
+        ],
+        "req_8": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_9": [
+          "AO",
+          "Controller",
+          "View"
+        ]
+      },
+      "trace_code_groundtruth_kind": "heuristic_pseudo_groundtruth",
+      "trace_code_class_groundtruth": {
+        "ITouristRepository": [
+          "src/main/java/com/example/tourist/ITouristRepository.java"
+        ],
+        "TouristRepository": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "Tourist": [
+          "src/main/java/com/example/tourist/Tourist.java",
+          "src/main/java/com/example/tourist/TouristManagementService.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "TouristDTO": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java",
+          "src/main/java/com/example/tourist/TouristDTO.java",
+          "src/main/java/com/example/tourist/TouristFormView.java",
+          "src/main/java/com/example/tourist/TouristManagementService.java"
+        ],
+        "ValidationResult": [
+          "src/main/java/com/example/tourist/Tourist.java",
+          "src/main/java/com/example/tourist/TouristManagementService.java",
+          "src/main/java/com/example/tourist/ValidationResult.java"
+        ],
+        "TouristManagementService": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java",
+          "src/main/java/com/example/tourist/TouristManagementService.java"
+        ],
+        "AgencyOperatorController": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java"
+        ],
+        "TouristFormView": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java",
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ],
+        "AuthenticationService": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java",
+          "src/main/java/com/example/tourist/AuthenticationService.java"
+        ],
+        "User": [
+          "src/main/java/com/example/tourist/AuthenticationService.java",
+          "src/main/java/com/example/tourist/User.java"
+        ]
+      },
+      "trace_code_sequence_nodes_groundtruth": {},
+      "trace_code_sequence_messages_groundtruth": {
+        "m3": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java"
+        ],
+        "m4": [
+          "src/main/java/com/example/tourist/TouristManagementService.java"
+        ],
+        "m5": [
+          "src/main/java/com/example/tourist/ITouristRepository.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "m8": [
+          "src/main/java/com/example/tourist/Tourist.java",
+          "src/main/java/com/example/tourist/TouristManagementService.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "m9": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java",
+          "src/main/java/com/example/tourist/TouristDTO.java",
+          "src/main/java/com/example/tourist/TouristFormView.java",
+          "src/main/java/com/example/tourist/TouristManagementService.java"
+        ],
+        "m11": [
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ],
+        "m13": [
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ],
+        "m14": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java"
+        ],
+        "m15": [
+          "src/main/java/com/example/tourist/TouristManagementService.java"
+        ],
+        "m16": [
+          "src/main/java/com/example/tourist/ITouristRepository.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "m18": [
+          "src/main/java/com/example/tourist/Tourist.java"
+        ],
+        "m19": [
+          "src/main/java/com/example/tourist/Tourist.java"
+        ],
+        "m22": [
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ],
+        "m24": [
+          "src/main/java/com/example/tourist/AgencyOperatorController.java"
+        ],
+        "m25": [
+          "src/main/java/com/example/tourist/TouristManagementService.java"
+        ],
+        "m26": [
+          "src/main/java/com/example/tourist/ITouristRepository.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "m28": [
+          "src/main/java/com/example/tourist/Tourist.java"
+        ],
+        "m29": [
+          "src/main/java/com/example/tourist/ITouristRepository.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "m32": [
+          "src/main/java/com/example/tourist/Tourist.java",
+          "src/main/java/com/example/tourist/TouristManagementService.java",
+          "src/main/java/com/example/tourist/TouristRepository.java"
+        ],
+        "m34": [
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ],
+        "m35": [
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ],
+        "m37": [
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ],
+        "m38": [
+          "src/main/java/com/example/tourist/TouristFormView.java"
+        ]
+      }
+    },
+    "UC45": {
+  
+      "trace_class_groundtruth": {
+        "req_0": [
+          "Operator",
+          "PersonalStatisticsController",
+          "PersonalStatisticsData",
+          "PersonalStatisticsDto",
+          "PersonalStatisticsModel",
+          "PersonalStatisticsView"
+        ],
+        "req_1": [
+          "Operator",
+          "OperatorDashboardController"
+        ],
+        "req_2": [
+          "Operator",
+          "RefreshmentPoint"
+        ],
+        "req_3": [
+          "Operator",
+          "PersonalStatisticsDto",
+          "PersonalStatisticsModel",
+          "PersonalStatisticsView"
+        ],
+        "req_4": [
+          "PersonalStatisticsData",
+          "RefreshmentPoint",
+          "StatisticsRepositoryImpl",
+          "StatisticsService"
+        ],
+        "req_5": [
+          "PersonalStatisticsData"
+        ],
+        "req_7": [
+          "PersonalStatisticsModel",
+          "PersonalStatisticsView",
+          "StatisticsRepositoryImpl",
+          "StatisticsService"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "DashboardCtrl",
+          "Operator",
+          "StatsCtrl",
+          "StatsService",
+          "StatsView"
+        ],
+        "req_1": [
+          "DashboardCtrl",
+          "Operator"
+        ],
+        "req_2": [
+          "DashboardCtrl",
+          "Operator"
+        ],
+        "req_3": [
+          "DashboardCtrl",
+          "Operator",
+          "StatsCtrl",
+          "StatsService"
+        ],
+        "req_4": [
+          "DB",
+          "DashboardCtrl",
+          "RepoImpl",
+          "StatsModel",
+          "StatsService"
+        ],
+        "req_5": [
+          "DB",
+          "StatsModel",
+          "StatsService"
+        ],
+        "req_6": [
+          "DB",
+          "RepoInterface",
+          "StatsService"
+        ],
+        "req_7": [
+          "RepoImpl",
+          "StatsCtrl",
+          "StatsModel",
+          "StatsService",
+          "StatsView"
+        ]
+      },
+      "trace_code_groundtruth_kind": "heuristic_pseudo_groundtruth",
+      "trace_code_class_groundtruth": {
+        "OperatorDashboardController": [
+          "src/main/java/com/example/statistics/MainApplication.java",
+          "src/main/java/com/example/statistics/OperatorDashboardController.java"
+        ],
+        "PersonalStatisticsController": [
+          "src/main/java/com/example/statistics/MainApplication.java",
+          "src/main/java/com/example/statistics/PersonalStatisticsController.java"
+        ],
+        "PersonalStatisticsView": [
+          "src/main/java/com/example/statistics/MainApplication.java",
+          "src/main/java/com/example/statistics/PersonalStatisticsView.java"
+        ],
+        "PersonalStatisticsModel": [
+          "src/main/java/com/example/statistics/MainApplication.java",
+          "src/main/java/com/example/statistics/PersonalStatisticsModel.java"
+        ],
+        "StatisticsService": [
+          "src/main/java/com/example/statistics/MainApplication.java",
+          "src/main/java/com/example/statistics/StatisticsService.java"
+        ],
+        "Operator": [
+          "src/main/java/com/example/statistics/Operator.java"
+        ],
+        "RefreshmentPoint": [
+          "src/main/java/com/example/statistics/RefreshmentPoint.java"
+        ],
+        "PersonalStatisticsData": [
+          "src/main/java/com/example/statistics/PersonalStatisticsData.java",
+          "src/main/java/com/example/statistics/PersonalStatisticsModel.java",
+          "src/main/java/com/example/statistics/StatisticsRepositoryImpl.java"
+        ],
+        "PersonalStatisticsDto": [
+          "src/main/java/com/example/statistics/PersonalStatisticsDto.java",
+          "src/main/java/com/example/statistics/PersonalStatisticsModel.java"
+        ],
+        "IStatisticsRepository": [
+          "src/main/java/com/example/statistics/IStatisticsRepository.java"
+        ],
+        "StatisticsRepositoryImpl": [
+          "src/main/java/com/example/statistics/MainApplication.java",
+          "src/main/java/com/example/statistics/StatisticsRepositoryImpl.java"
+        ]
+      },
+      "trace_code_sequence_nodes_groundtruth": {
+        "StatsCtrl": [
+          "src/main/java/com/example/statistics/PersonalStatisticsController.java"
+        ],
+        "StatsService": [
+          "src/main/java/com/example/statistics/StatisticsService.java"
+        ]
+      },
+      "trace_code_sequence_messages_groundtruth": {
+        "m1": [
+          "src/main/java/com/example/statistics/OperatorDashboardController.java"
+        ],
+        "m2": [
+          "src/main/java/com/example/statistics/PersonalStatisticsController.java"
+        ],
+        "m3": [
+          "src/main/java/com/example/statistics/PersonalStatisticsModel.java"
+        ],
+        "m4": [
+          "src/main/java/com/example/statistics/StatisticsService.java"
+        ],
+        "m5": [
+          "src/main/java/com/example/statistics/IStatisticsRepository.java",
+          "src/main/java/com/example/statistics/StatisticsRepositoryImpl.java"
+        ],
+        "m6": [
+          "src/main/java/com/example/statistics/IStatisticsRepository.java",
+          "src/main/java/com/example/statistics/StatisticsRepositoryImpl.java"
+        ],
+        "m7": [
+          "src/main/java/com/example/statistics/StatisticsRepositoryImpl.java"
+        ],
+        "m11": [
+          "src/main/java/com/example/statistics/PersonalStatisticsModel.java"
+        ],
+        "m13": [
+          "src/main/java/com/example/statistics/PersonalStatisticsView.java"
+        ],
+        "m15": [
+          "src/main/java/com/example/statistics/PersonalStatisticsController.java",
+          "src/main/java/com/example/statistics/PersonalStatisticsView.java"
+        ],
+        "m19": [
+          "src/main/java/com/example/statistics/PersonalStatisticsView.java"
+        ],
+        "m21": [
+          "src/main/java/com/example/statistics/PersonalStatisticsView.java"
+        ]
+      }
+    },
+    "UC52": {
+  
+      "trace_class_groundtruth": {
+        "req_0": [
+          "Bookmark"
+        ],
+        "req_10": [
+          "Bookmark",
+          "BookmarkRemovalConfirmationDTO",
+          "BookmarkRemovalService"
+        ],
+        "req_3": [
+          "Bookmark"
+        ],
+        "req_4": [
+          "BookmarkRemovalConfirmationDTO",
+          "BookmarkRemovalService"
+        ],
+        "req_5": [
+          "BookmarkRemovalConfirmationDTO",
+          "BookmarkRemovalService"
+        ],
+        "req_6": [
+          "Bookmark"
+        ],
+        "req_7": [
+          "Bookmark"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "BookmarkView",
+          "Database",
+          "Tourist"
+        ],
+        "req_1": [
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_10": [
+          "BookmarkRemovalService",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_2": [
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_3": [
+          "BookmarkController",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_4": [
+          "BookmarkController",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_5": [
+          "BookmarkRemovalService",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_6": [
+          "BookmarkController",
+          "BookmarkRepository",
+          "BookmarkView",
+          "Database",
+          "Tourist"
+        ],
+        "req_7": [
+          "--x BookmarkRepository : connectionError",
+          "BookmarkRemovalService",
+          "BookmarkRepository",
+          "Database",
+          "Tourist"
+        ],
+        "req_8": [
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_9": [
+          "--> BookmarkRepository : success",
+          "--x BookmarkRepository : connectionError",
+          "BookmarkRemovalService",
+          "BookmarkRepository"
+        ]
+      },
+      "trace_code_groundtruth_kind": "heuristic_pseudo_groundtruth",
+      "trace_code_class_groundtruth": {
+        "BookmarkRepository": [
+          "src/main/java/com/example/bookmark/BookmarkRepository.java"
+        ],
+        "Bookmark": [
+          "src/main/java/com/example/bookmark/Bookmark.java",
+          "src/main/java/com/example/bookmark/BookmarkRepositoryImpl.java"
+        ],
+        "BookmarkRepositoryImpl": [
+          "src/main/java/com/example/bookmark/BookmarkRepositoryImpl.java",
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "BookmarkIdentifierDTO": [
+          "src/main/java/com/example/bookmark/BookmarkController.java",
+          "src/main/java/com/example/bookmark/BookmarkIdentifierDTO.java"
+        ],
+        "BookmarkRemovalConfirmationDTO": [
+          "src/main/java/com/example/bookmark/BookmarkRemovalConfirmationDTO.java",
+          "src/main/java/com/example/bookmark/BookmarkRemovalService.java"
+        ],
+        "BookmarkRemovalService": [
+          "src/main/java/com/example/bookmark/BookmarkRemovalService.java",
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "BookmarkController": [
+          "src/main/java/com/example/bookmark/BookmarkController.java",
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "BookmarkView": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ]
+      },
+      "trace_code_sequence_nodes_groundtruth": {
+        "BookmarkView": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "BookmarkController": [
+          "src/main/java/com/example/bookmark/BookmarkController.java",
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "BookmarkRemovalService": [
+          "src/main/java/com/example/bookmark/BookmarkRemovalService.java",
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "BookmarkRepository": [
+          "src/main/java/com/example/bookmark/BookmarkRepository.java"
+        ]
+      },
+      "trace_code_sequence_messages_groundtruth": {
+        "m1": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "m2": [
+          "src/main/java/com/example/bookmark/BookmarkController.java"
+        ],
+        "m4": [
+          "src/main/java/com/example/bookmark/BookmarkRemovalService.java"
+        ],
+        "m5": [
+          "src/main/java/com/example/bookmark/BookmarkRepository.java",
+          "src/main/java/com/example/bookmark/BookmarkRepositoryImpl.java"
+        ],
+        "m6": [
+          "src/main/java/com/example/bookmark/BookmarkRepositoryImpl.java"
+        ],
+        "m9": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "m11": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "m12": [
+          "src/main/java/com/example/bookmark/BookmarkController.java"
+        ],
+        "m13": [
+          "src/main/java/com/example/bookmark/BookmarkRemovalService.java"
+        ],
+        "m15": [
+          "src/main/java/com/example/bookmark/BookmarkRepository.java",
+          "src/main/java/com/example/bookmark/BookmarkRepositoryImpl.java"
+        ],
+        "m16": [
+          "src/main/java/com/example/bookmark/BookmarkRepositoryImpl.java"
+        ],
+        "m19": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "m23": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "m25": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ],
+        "m26": [
+          "src/main/java/com/example/bookmark/BookmarkController.java"
+        ],
+        "m27": [
+          "src/main/java/com/example/bookmark/BookmarkRemovalService.java"
+        ],
+        "m29": [
+          "src/main/java/com/example/bookmark/BookmarkView.java"
+        ]
+      }
+    },
+    "UC56": {
+  
+      "trace_class_groundtruth": {
+        "req_0": [
+          "GpsLocationRepository",
+          "Location"
+        ],
+        "req_4": [
+          "GpsLocationRepository"
+        ],
+        "req_7": [
+          "GpsLocationRepository"
+        ],
+        "req_8": [
+          "GpsLocationRepository",
+          "LocalizationService"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "GLR",
+          "LS",
+          "TouristApp"
+        ],
+        "req_1": [
+          "TouristApp"
+        ],
+        "req_2": [
+          "TouristApp"
+        ],
+        "req_3": [
+          "GLR",
+          "LS",
+          "TouristApp"
+        ],
+        "req_4": [
+          "GLR",
+          "GPS",
+          "TouristApp"
+        ],
+        "req_5": [
+          "GLR",
+          "LS",
+          "TouristApp"
+        ],
+        "req_6": [
+          "GLR",
+          "TouristApp"
+        ],
+        "req_7": [
+          "GLR",
+          "GPS",
+          "TouristApp"
+        ],
+        "req_8": [
+          "GLR",
+          "GPS",
+          "LS"
+        ]
+      },
+      "trace_code_groundtruth_kind": "heuristic_pseudo_groundtruth",
+      "trace_code_class_groundtruth": {
+        "LocalizationService": [
+          "src/main/java/com/example/localization/Main.java",
+          "src/main/java/com/example/localization/service/LocalizationService.java"
+        ],
+        "ILocationRepository": [
+          "src/main/java/com/example/localization/repository/ILocationRepository.java"
+        ],
+        "GpsLocationRepository": [
+          "src/main/java/com/example/localization/Main.java",
+          "src/main/java/com/example/localization/repository/GpsLocationRepository.java"
+        ],
+        "IGpsModule": [
+          "src/main/java/com/example/localization/module/IGpsModule.java"
+        ],
+        "Location": [
+          "src/main/java/com/example/localization/model/Location.java",
+          "src/main/java/com/example/localization/module/MockGpsModule.java"
+        ]
+      },
+      "trace_code_sequence_nodes_groundtruth": {
+        "LS": [
+          "src/main/java/com/example/localization/Main.java",
+          "src/main/java/com/example/localization/service/LocalizationService.java"
+        ],
+        "GLR": [
+          "src/main/java/com/example/localization/repository/GpsLocationRepository.java",
+          "src/main/java/com/example/localization/service/LocalizationService.java"
+        ],
+        "GPS": [
+          "src/main/java/com/example/localization/service/LocalizationService.java"
+        ]
+      },
+      "trace_code_sequence_messages_groundtruth": {
+        "m2": [
+          "src/main/java/com/example/localization/service/LocalizationService.java"
+        ],
+        "m5": [
+          "src/main/java/com/example/localization/repository/GpsLocationRepository.java",
+          "src/main/java/com/example/localization/repository/ILocationRepository.java"
+        ],
+        "m7": [
+          "src/main/java/com/example/localization/module/IGpsModule.java",
+          "src/main/java/com/example/localization/module/MockGpsModule.java"
+        ],
+        "m12": [
+          "src/main/java/com/example/localization/service/LocalizationService.java"
+        ],
+        "m14": [
+          "src/main/java/com/example/localization/model/Location.java",
+          "src/main/java/com/example/localization/module/MockGpsModule.java"
+        ]
+      }
+    },
+    "UC58": {
+  
+      "trace_class_groundtruth": {
+        "req_0": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteRepositoryImpl",
+          "SiteService",
+          "SiteSourceArea"
+        ],
+        "req_1": [
+          "UserSession"
+        ],
+        "req_10": [
+          "ETOURConnectionException"
+        ],
+        "req_11": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteService"
+        ],
+        "req_3": [
+          "SiteSourceArea"
+        ],
+        "req_4": [
+          "Site",
+          "SiteSourceArea"
+        ],
+        "req_5": [
+          "SiteSourceArea"
+        ],
+        "req_6": [
+          "Site",
+          "SiteRepositoryImpl",
+          "SiteService",
+          "SiteSourceArea"
+        ],
+        "req_7": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteService"
+        ],
+        "req_8": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteService"
+        ],
+        "req_9": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "SiteRepositoryImpl",
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_1": [
+          "Tourist",
+          "TouristDB",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_10": [
+          "ISiteRepository",
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_11": [
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_2": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_3": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_4": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_5": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_6": [
+          "SiteRepositoryImpl",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_7": [
+          "SiteRepositoryImpl",
+          "SiteRepositoryImpl <<Data Access Layer>>",
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_8": [
+          "SiteService",
+          "SiteService <<Application Layer>>",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_9": [
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ]
+      },
+      "trace_code_groundtruth_kind": "heuristic_pseudo_groundtruth",
+      "trace_code_class_groundtruth": {
+        "SiteDetailsView": [
+          "src/main/java/com/example/tourism/Main.java",
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ],
+        "SiteService": [
+          "src/main/java/com/example/tourism/Main.java",
+          "src/main/java/com/example/tourism/application/SiteService.java"
+        ],
+        "ISiteRepository": [
+          "src/main/java/com/example/tourism/data/ISiteRepository.java"
+        ],
+        "SiteRepositoryImpl": [
+          "src/main/java/com/example/tourism/Main.java",
+          "src/main/java/com/example/tourism/data/SiteRepositoryImpl.java"
+        ],
+        "Site": [
+          "src/main/java/com/example/tourism/data/SiteRepositoryImpl.java",
+          "src/main/java/com/example/tourism/domain/Site.java"
+        ],
+        "SiteDetailsDTO": [
+          "src/main/java/com/example/tourism/application/SiteService.java",
+          "src/main/java/com/example/tourism/dto/SiteDetailsDTO.java"
+        ],
+        "ETOURConnectionException": [
+          "src/main/java/com/example/tourism/application/ETOURConnectionException.java",
+          "src/main/java/com/example/tourism/application/SiteService.java"
+        ],
+        "UserSession": [
+          "src/main/java/com/example/tourism/session/UserSession.java"
+        ],
+        "SiteSourceArea": [
+          "src/main/java/com/example/tourism/domain/SiteSourceArea.java"
+        ]
+      },
+      "trace_code_sequence_nodes_groundtruth": {},
+      "trace_code_sequence_messages_groundtruth": {
+        "m1": [
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ],
+        "m2": [
+          "src/main/java/com/example/tourism/application/SiteService.java"
+        ],
+        "m4": [
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ],
+        "m5": [
+          "src/main/java/com/example/tourism/data/ISiteRepository.java",
+          "src/main/java/com/example/tourism/data/SiteRepositoryImpl.java"
+        ],
+        "m6": [
+          "src/main/java/com/example/tourism/data/ISiteRepository.java",
+          "src/main/java/com/example/tourism/data/SiteRepositoryImpl.java"
+        ],
+        "m8": [
+          "src/main/java/com/example/tourism/Main.java",
+          "src/main/java/com/example/tourism/application/SiteService.java",
+          "src/main/java/com/example/tourism/data/ISiteRepository.java",
+          "src/main/java/com/example/tourism/data/SiteRepositoryImpl.java",
+          "src/main/java/com/example/tourism/domain/Site.java",
+          "src/main/java/com/example/tourism/domain/SiteSourceArea.java",
+          "src/main/java/com/example/tourism/dto/SiteDetailsDTO.java",
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ],
+        "m9": [
+          "src/main/java/com/example/tourism/Main.java",
+          "src/main/java/com/example/tourism/application/SiteService.java",
+          "src/main/java/com/example/tourism/data/ISiteRepository.java",
+          "src/main/java/com/example/tourism/data/SiteRepositoryImpl.java",
+          "src/main/java/com/example/tourism/domain/Site.java",
+          "src/main/java/com/example/tourism/domain/SiteSourceArea.java",
+          "src/main/java/com/example/tourism/dto/SiteDetailsDTO.java",
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ],
+        "m10": [
+          "src/main/java/com/example/tourism/Main.java",
+          "src/main/java/com/example/tourism/application/SiteService.java",
+          "src/main/java/com/example/tourism/data/ISiteRepository.java",
+          "src/main/java/com/example/tourism/data/SiteRepositoryImpl.java",
+          "src/main/java/com/example/tourism/domain/Site.java",
+          "src/main/java/com/example/tourism/domain/SiteSourceArea.java",
+          "src/main/java/com/example/tourism/dto/SiteDetailsDTO.java",
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ],
+        "m12": [
+          "src/main/java/com/example/tourism/application/SiteService.java",
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ],
+        "m13": [
+          "src/main/java/com/example/tourism/presentation/SiteDetailsView.java"
+        ]
+      }
+    }
+  }
+}
