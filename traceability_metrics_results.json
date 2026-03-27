@@ -1,0 +1,375 @@
+{
+  "base": "/home/ices/mingyuchen/reconstruct/results/gemini-2.5-flash/our_method_overall_noxihua/eTour",
+  "seed": 20260327,
+  "sample_size": 6,
+  "class_granularity": "class_only",
+  "sequence_granularity": "participant_receiver",
+  "selected_ucs": [
+    "UC13",
+    "UC15",
+    "UC45",
+    "UC52",
+    "UC56",
+    "UC58"
+  ],
+  "per_uc": {
+    "UC13": {
+      "trace_class": {
+        "tp": 14,
+        "fp": 9,
+        "fn": 8,
+        "precision": 0.608696,
+        "recall": 0.636364,
+        "f1": 0.622222
+      },
+      "trace_sequence": {
+        "tp": 17,
+        "fp": 5,
+        "fn": 8,
+        "precision": 0.772727,
+        "recall": 0.68,
+        "f1": 0.723404
+      },
+      "trace_overall": {
+        "tp": 31,
+        "fp": 14,
+        "fn": 16,
+        "precision": 0.688889,
+        "recall": 0.659574,
+        "f1": 0.673913
+      },
+      "trace_code_class": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888889
+      },
+      "trace_code_sequence": {
+        "tp": 14,
+        "fp": 13,
+        "fn": 6,
+        "precision": 0.518519,
+        "recall": 0.7,
+        "f1": 0.595745
+      },
+      "trace_code_overall": {
+        "tp": 22,
+        "fp": 13,
+        "fn": 8,
+        "precision": 0.628571,
+        "recall": 0.733333,
+        "f1": 0.676923
+      }
+    },
+    "UC15": {
+      "trace_class": {
+        "tp": 24,
+        "fp": 25,
+        "fn": 11,
+        "precision": 0.489796,
+        "recall": 0.685714,
+        "f1": 0.571429
+      },
+      "trace_sequence": {
+        "tp": 34,
+        "fp": 17,
+        "fn": 19,
+        "precision": 0.666667,
+        "recall": 0.641509,
+        "f1": 0.653846
+      },
+      "trace_overall": {
+        "tp": 58,
+        "fp": 42,
+        "fn": 30,
+        "precision": 0.58,
+        "recall": 0.659091,
+        "f1": 0.617021
+      },
+      "trace_code_class": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.947368
+      },
+      "trace_code_sequence": {
+        "tp": 13,
+        "fp": 23,
+        "fn": 10,
+        "precision": 0.361111,
+        "recall": 0.565217,
+        "f1": 0.440678
+      },
+      "trace_code_overall": {
+        "tp": 22,
+        "fp": 23,
+        "fn": 11,
+        "precision": 0.488889,
+        "recall": 0.666667,
+        "f1": 0.564103
+      }
+    },
+    "UC45": {
+      "trace_class": {
+        "tp": 15,
+        "fp": 19,
+        "fn": 8,
+        "precision": 0.441176,
+        "recall": 0.652174,
+        "f1": 0.526316
+      },
+      "trace_sequence": {
+        "tp": 15,
+        "fp": 16,
+        "fn": 14,
+        "precision": 0.483871,
+        "recall": 0.517241,
+        "f1": 0.5
+      },
+      "trace_overall": {
+        "tp": 30,
+        "fp": 35,
+        "fn": 22,
+        "precision": 0.461538,
+        "recall": 0.576923,
+        "f1": 0.512821
+      },
+      "trace_code_class": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.909091,
+        "f1": 0.952381
+      },
+      "trace_code_sequence": {
+        "tp": 4,
+        "fp": 18,
+        "fn": 10,
+        "precision": 0.181818,
+        "recall": 0.285714,
+        "f1": 0.222222
+      },
+      "trace_code_overall": {
+        "tp": 14,
+        "fp": 18,
+        "fn": 11,
+        "precision": 0.4375,
+        "recall": 0.56,
+        "f1": 0.491228
+      }
+    },
+    "UC52": {
+      "trace_class": {
+        "tp": 8,
+        "fp": 30,
+        "fn": 3,
+        "precision": 0.210526,
+        "recall": 0.727273,
+        "f1": 0.326531
+      },
+      "trace_sequence": {
+        "tp": 21,
+        "fp": 16,
+        "fn": 14,
+        "precision": 0.567568,
+        "recall": 0.6,
+        "f1": 0.583333
+      },
+      "trace_overall": {
+        "tp": 29,
+        "fp": 46,
+        "fn": 17,
+        "precision": 0.386667,
+        "recall": 0.630435,
+        "f1": 0.479339
+      },
+      "trace_code_class": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.857143,
+        "recall": 0.75,
+        "f1": 0.8
+      },
+      "trace_code_sequence": {
+        "tp": 16,
+        "fp": 6,
+        "fn": 5,
+        "precision": 0.727273,
+        "recall": 0.761905,
+        "f1": 0.744186
+      },
+      "trace_code_overall": {
+        "tp": 22,
+        "fp": 7,
+        "fn": 7,
+        "precision": 0.758621,
+        "recall": 0.758621,
+        "f1": 0.758621
+      }
+    },
+    "UC56": {
+      "trace_class": {
+        "tp": 6,
+        "fp": 13,
+        "fn": 0,
+        "precision": 0.315789,
+        "recall": 1.0,
+        "f1": 0.48
+      },
+      "trace_sequence": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 9,
+        "precision": 0.928571,
+        "recall": 0.590909,
+        "f1": 0.722222
+      },
+      "trace_overall": {
+        "tp": 19,
+        "fp": 14,
+        "fn": 9,
+        "precision": 0.575758,
+        "recall": 0.678571,
+        "f1": 0.622951
+      },
+      "trace_code_class": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888889
+      },
+      "trace_code_sequence": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.857143
+      },
+      "trace_code_overall": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.769231,
+        "f1": 0.869565
+      }
+    },
+    "UC58": {
+      "trace_class": {
+        "tp": 21,
+        "fp": 14,
+        "fn": 10,
+        "precision": 0.6,
+        "recall": 0.677419,
+        "f1": 0.636364
+      },
+      "trace_sequence": {
+        "tp": 27,
+        "fp": 15,
+        "fn": 15,
+        "precision": 0.642857,
+        "recall": 0.642857,
+        "f1": 0.642857
+      },
+      "trace_overall": {
+        "tp": 48,
+        "fp": 29,
+        "fn": 25,
+        "precision": 0.623377,
+        "recall": 0.657534,
+        "f1": 0.64
+      },
+      "trace_code_class": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.888889,
+        "f1": 0.941176
+      },
+      "trace_code_sequence": {
+        "tp": 7,
+        "fp": 7,
+        "fn": 3,
+        "precision": 0.5,
+        "recall": 0.7,
+        "f1": 0.583333
+      },
+      "trace_code_overall": {
+        "tp": 15,
+        "fp": 7,
+        "fn": 4,
+        "precision": 0.681818,
+        "recall": 0.789474,
+        "f1": 0.731707
+      }
+    }
+  },
+  "aggregate": {
+    "trace_class": {
+      "tp": 88,
+      "fp": 110,
+      "fn": 40,
+      "precision": 0.444444,
+      "recall": 0.6875,
+      "f1": 0.539877
+    },
+    "trace_sequence": {
+      "tp": 127,
+      "fp": 70,
+      "fn": 79,
+      "precision": 0.64467,
+      "recall": 0.616505,
+      "f1": 0.630273
+    },
+    "trace_overall": {
+      "tp": 215,
+      "fp": 180,
+      "fn": 119,
+      "precision": 0.544304,
+      "recall": 0.643713,
+      "f1": 0.589849
+    },
+    "trace_code_class": {
+      "tp": 45,
+      "fp": 1,
+      "fn": 8,
+      "precision": 0.978261,
+      "recall": 0.849057,
+      "f1": 0.909091
+    },
+    "trace_code_sequence": {
+      "tp": 60,
+      "fp": 67,
+      "fn": 36,
+      "precision": 0.472441,
+      "recall": 0.625,
+      "f1": 0.538117
+    },
+    "trace_code_overall": {
+      "tp": 105,
+      "fp": 68,
+      "fn": 44,
+      "precision": 0.606936,
+      "recall": 0.704698,
+      "f1": 0.652174
+    },
+    "overall_trace": {
+      "tp": 320,
+      "fp": 248,
+      "fn": 163,
+      "precision": 0.56338,
+      "recall": 0.662526,
+      "f1": 0.608944
+    }
+  }
+}

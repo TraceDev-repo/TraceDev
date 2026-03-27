@@ -1,0 +1,629 @@
+{
+  "base": "/home/ices/mingyuchen/reconstruct/results/gemini-2.5-flash/our_method_overall_noxihua/eTour",
+  "seed": 20260327,
+  "sample_size": 6,
+  "class_granularity": "class_only",
+  "sequence_granularity": "participant_receiver",
+  "selected_ucs": [
+    "UC13",
+    "UC15",
+    "UC45",
+    "UC52",
+    "UC56",
+    "UC58"
+  ],
+  "groundtruth_per_uc": {
+    "UC13": {
+      "class_granularity": "class_only",
+      "sequence_granularity": "participant_receiver",
+      "trace_class_groundtruth": {
+        "req_0": [
+          "DisableTouristAccountCommand",
+          "EnableTouristAccountCommand",
+          "TouristAccount",
+          "TouristAccountCommandService",
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_1": [
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_2": [
+          "TouristAccount",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_3": [
+          "TouristAccount",
+          "TouristAccountCommandService",
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_6": [
+          "AccountStatus",
+          "ITouristAccountRepository",
+          "TouristAccount",
+          "TouristAccountRepositoryAdapter"
+        ],
+        "req_9": [
+          "TouristAccount",
+          "TouristAccountCommandService",
+          "TouristAccountManagementUI",
+          "TouristAccountRepositoryAdapter"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "AO",
+          "Account",
+          "Service",
+          "UI"
+        ],
+        "req_1": [
+          "AO"
+        ],
+        "req_2": [
+          "Account",
+          "UI"
+        ],
+        "req_3": [
+          "AO",
+          "UI"
+        ],
+        "req_4": [
+          "UI"
+        ],
+        "req_5": [
+          "AO",
+          "UI"
+        ],
+        "req_6": [
+          "Account",
+          "DB",
+          "Service",
+          "UI"
+        ],
+        "req_7": [
+          "AO",
+          "UI"
+        ],
+        "req_8": [
+          "AO",
+          "DB",
+          "UI"
+        ],
+        "req_9": [
+          "Account",
+          "Audit",
+          "Service",
+          "UI"
+        ]
+      }
+    },
+    "UC15": {
+      "class_granularity": "class_only",
+      "sequence_granularity": "participant_receiver",
+      "trace_class_groundtruth": {
+        "req_0": [
+          "AgencyOperatorController",
+          "Tourist",
+          "TouristDTO",
+          "TouristFormView",
+          "TouristManagementService",
+          "TouristRepository"
+        ],
+        "req_1": [
+          "AgencyOperatorController",
+          "User"
+        ],
+        "req_10": [
+          "AgencyOperatorController",
+          "TouristFormView"
+        ],
+        "req_13": [
+          "AgencyOperatorController"
+        ],
+        "req_14": [
+          "Tourist",
+          "TouristDTO",
+          "TouristManagementService",
+          "TouristRepository"
+        ],
+        "req_2": [
+          "AgencyOperatorController"
+        ],
+        "req_3": [
+          "AgencyOperatorController",
+          "Tourist"
+        ],
+        "req_4": [
+          "AgencyOperatorController",
+          "Tourist",
+          "TouristDTO",
+          "TouristRepository"
+        ],
+        "req_5": [
+          "AgencyOperatorController",
+          "Tourist",
+          "TouristDTO",
+          "TouristRepository"
+        ],
+        "req_6": [
+          "Tourist",
+          "TouristDTO",
+          "TouristManagementService",
+          "TouristRepository"
+        ],
+        "req_7": [
+          "TouristFormView"
+        ],
+        "req_8": [
+          "AgencyOperatorController",
+          "TouristFormView"
+        ],
+        "req_9": [
+          "AgencyOperatorController",
+          "TouristFormView"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "Controller",
+          "Service",
+          "View"
+        ],
+        "req_1": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_10": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_12": [
+          "View"
+        ],
+        "req_13": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_14": [
+          "Controller",
+          "Repository",
+          "TouristDTO",
+          "View"
+        ],
+        "req_15": [
+          "Repository",
+          "Service",
+          "View"
+        ],
+        "req_16": [
+          "Repository",
+          "Service",
+          "View"
+        ],
+        "req_17": [
+          "Controller",
+          "Repository",
+          "Service",
+          "View"
+        ],
+        "req_2": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_3": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_4": [
+          "AO",
+          "Controller",
+          "Service",
+          "View"
+        ],
+        "req_5": [
+          "Controller",
+          "Service",
+          "View"
+        ],
+        "req_6": [
+          "Controller",
+          "DB",
+          "Repository",
+          "View"
+        ],
+        "req_7": [
+          "Controller",
+          "Repository",
+          "View"
+        ],
+        "req_8": [
+          "AO",
+          "Controller",
+          "View"
+        ],
+        "req_9": [
+          "AO",
+          "Controller",
+          "View"
+        ]
+      }
+    },
+    "UC45": {
+      "class_granularity": "class_only",
+      "sequence_granularity": "participant_receiver",
+      "trace_class_groundtruth": {
+        "req_0": [
+          "Operator",
+          "PersonalStatisticsController",
+          "PersonalStatisticsData",
+          "PersonalStatisticsDto",
+          "PersonalStatisticsModel",
+          "PersonalStatisticsView"
+        ],
+        "req_1": [
+          "Operator",
+          "OperatorDashboardController"
+        ],
+        "req_2": [
+          "Operator",
+          "RefreshmentPoint"
+        ],
+        "req_3": [
+          "Operator",
+          "PersonalStatisticsDto",
+          "PersonalStatisticsModel",
+          "PersonalStatisticsView"
+        ],
+        "req_4": [
+          "PersonalStatisticsData",
+          "RefreshmentPoint",
+          "StatisticsRepositoryImpl",
+          "StatisticsService"
+        ],
+        "req_5": [
+          "PersonalStatisticsData"
+        ],
+        "req_7": [
+          "PersonalStatisticsModel",
+          "PersonalStatisticsView",
+          "StatisticsRepositoryImpl",
+          "StatisticsService"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "DashboardCtrl",
+          "Operator",
+          "StatsCtrl",
+          "StatsService",
+          "StatsView"
+        ],
+        "req_1": [
+          "DashboardCtrl",
+          "Operator"
+        ],
+        "req_2": [
+          "DashboardCtrl",
+          "Operator"
+        ],
+        "req_3": [
+          "DashboardCtrl",
+          "Operator",
+          "StatsCtrl",
+          "StatsService"
+        ],
+        "req_4": [
+          "DB",
+          "DashboardCtrl",
+          "RepoImpl",
+          "StatsModel",
+          "StatsService"
+        ],
+        "req_5": [
+          "DB",
+          "StatsModel",
+          "StatsService"
+        ],
+        "req_6": [
+          "DB",
+          "RepoInterface",
+          "StatsService"
+        ],
+        "req_7": [
+          "RepoImpl",
+          "StatsCtrl",
+          "StatsModel",
+          "StatsService",
+          "StatsView"
+        ]
+      }
+    },
+    "UC52": {
+      "class_granularity": "class_only",
+      "sequence_granularity": "participant_receiver",
+      "trace_class_groundtruth": {
+        "req_0": [
+          "Bookmark"
+        ],
+        "req_10": [
+          "Bookmark",
+          "BookmarkRemovalConfirmationDTO",
+          "BookmarkRemovalService"
+        ],
+        "req_3": [
+          "Bookmark"
+        ],
+        "req_4": [
+          "BookmarkRemovalConfirmationDTO",
+          "BookmarkRemovalService"
+        ],
+        "req_5": [
+          "BookmarkRemovalConfirmationDTO",
+          "BookmarkRemovalService"
+        ],
+        "req_6": [
+          "Bookmark"
+        ],
+        "req_7": [
+          "Bookmark"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "BookmarkView",
+          "Database",
+          "Tourist"
+        ],
+        "req_1": [
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_10": [
+          "BookmarkRemovalService",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_2": [
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_3": [
+          "BookmarkController",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_4": [
+          "BookmarkController",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_5": [
+          "BookmarkRemovalService",
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_6": [
+          "BookmarkController",
+          "BookmarkRepository",
+          "BookmarkView",
+          "Database",
+          "Tourist"
+        ],
+        "req_7": [
+          "--x BookmarkRepository : connectionError",
+          "BookmarkRemovalService",
+          "BookmarkRepository",
+          "Database",
+          "Tourist"
+        ],
+        "req_8": [
+          "BookmarkView",
+          "Tourist"
+        ],
+        "req_9": [
+          "--> BookmarkRepository : success",
+          "--x BookmarkRepository : connectionError",
+          "BookmarkRemovalService",
+          "BookmarkRepository"
+        ]
+      }
+    },
+    "UC56": {
+      "class_granularity": "class_only",
+      "sequence_granularity": "participant_receiver",
+      "trace_class_groundtruth": {
+        "req_0": [
+          "GpsLocationRepository",
+          "Location"
+        ],
+        "req_4": [
+          "GpsLocationRepository"
+        ],
+        "req_7": [
+          "GpsLocationRepository"
+        ],
+        "req_8": [
+          "GpsLocationRepository",
+          "LocalizationService"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "GLR",
+          "LS",
+          "TouristApp"
+        ],
+        "req_1": [
+          "TouristApp"
+        ],
+        "req_2": [
+          "TouristApp"
+        ],
+        "req_3": [
+          "GLR",
+          "LS",
+          "TouristApp"
+        ],
+        "req_4": [
+          "GLR",
+          "GPS",
+          "TouristApp"
+        ],
+        "req_5": [
+          "GLR",
+          "LS",
+          "TouristApp"
+        ],
+        "req_6": [
+          "GLR",
+          "TouristApp"
+        ],
+        "req_7": [
+          "GLR",
+          "GPS",
+          "TouristApp"
+        ],
+        "req_8": [
+          "GLR",
+          "GPS",
+          "LS"
+        ]
+      }
+    },
+    "UC58": {
+      "class_granularity": "class_only",
+      "sequence_granularity": "participant_receiver",
+      "trace_class_groundtruth": {
+        "req_0": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteRepositoryImpl",
+          "SiteService",
+          "SiteSourceArea"
+        ],
+        "req_1": [
+          "UserSession"
+        ],
+        "req_10": [
+          "ETOURConnectionException"
+        ],
+        "req_11": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteService"
+        ],
+        "req_3": [
+          "SiteSourceArea"
+        ],
+        "req_4": [
+          "Site",
+          "SiteSourceArea"
+        ],
+        "req_5": [
+          "SiteSourceArea"
+        ],
+        "req_6": [
+          "Site",
+          "SiteRepositoryImpl",
+          "SiteService",
+          "SiteSourceArea"
+        ],
+        "req_7": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteService"
+        ],
+        "req_8": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView",
+          "SiteService"
+        ],
+        "req_9": [
+          "Site",
+          "SiteDetailsDTO",
+          "SiteDetailsView"
+        ]
+      },
+      "trace_sequence_groundtruth": {
+        "req_0": [
+          "SiteRepositoryImpl",
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_1": [
+          "Tourist",
+          "TouristDB",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_10": [
+          "ISiteRepository",
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_11": [
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_2": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_3": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_4": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_5": [
+          "Tourist",
+          "TouristUI"
+        ],
+        "req_6": [
+          "SiteRepositoryImpl",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_7": [
+          "SiteRepositoryImpl",
+          "SiteRepositoryImpl <<Data Access Layer>>",
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_8": [
+          "SiteService",
+          "SiteService <<Application Layer>>",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ],
+        "req_9": [
+          "SiteService",
+          "Tourist",
+          "TouristUI",
+          "TouristUI <<Presentation Layer>>"
+        ]
+      }
+    }
+  }
+}
